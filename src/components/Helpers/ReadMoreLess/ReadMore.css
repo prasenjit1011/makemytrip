@@ -1,0 +1,16 @@
+/* .container{
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    width: 50%;
+  } */
+    
+  .read-more-text{
+    display: inline;
+    width: 100%;
+  }
+    
+  .read-or-hide{
+    color: rgb(160, 36, 183);
+    cursor: pointer;
+  }

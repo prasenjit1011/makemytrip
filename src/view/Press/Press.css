@@ -1,0 +1,608 @@
+/* Starting of press page */
+
+/* Banner part */
+
+#press_banner {
+    width: 100%;
+    height: 500px;
+    /* background: linear-gradient(rgba(80, 79, 79, 0.4), rgb(68, 66, 66, 0.4), rgba(87, 86, 86, 0.4)), url(../Images/PressBanner.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#press_banner:after{
+    background: linear-gradient(rgba(80, 79, 79, 0.4), rgb(68, 66, 66, 0.4), rgba(87, 86, 86, 0.4));
+    position:absolute;
+    content:"";
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+}
+.legal_bannerimg{
+    position: relative;
+    z-index: 1;
+}
+.press_head {
+    font-size: 50px;
+    line-height: 70px;
+    color: white;
+    letter-spacing: 6px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Responsive */
+
+@media (max-width: 991px) {
+    #press_banner {
+        height: 400px;
+    }
+
+    .press_head {
+        font-size: 30px;
+        letter-spacing: 4px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    #press_banner {
+        height: 300px;
+    }
+
+    .press_head {
+        font-size: 25px;
+        letter-spacing: 2px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 575px) {
+    .press_head {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+/* Press news part */
+
+#press_news {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+}
+
+.press_newsbody {
+    padding: 0px 70px;
+}
+
+.press_newstop {
+    padding-bottom: 50px;
+}
+
+.press_newshead {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.press_row {
+    /* display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: baseline;
+    margin-bottom: 20px; */ 
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 2%;
+    /* border-radius: 10px; */
+}
+
+.presscard {
+    width: 100%;
+    max-width: 32%;
+    /* padding: 10px 0px; */
+    box-shadow: 0px 0px 5px 0px #ccc;
+    margin: 12px 0px;
+    border-radius: 10px;
+}
+
+.pressimg_wrap {
+    width: 100%;
+    height: 200px;
+}
+
+.pressimg_wrap img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.press_text {
+    padding: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    height: 85px;
+}
+
+.pressbtn_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.press_newsbtn {
+    width: 130px;
+    height: 45px;
+    background-color: #009788;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 36px;
+}
+
+/* Responsive */
+
+@media (max-width: 991px) {
+    .press_newsbody {
+        padding: 0px 40px;
+    }
+
+    .press_newshead {
+        font-size: 30px;
+    }
+
+    .presscard {
+        height: 320px;
+    }
+
+    .press_text {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 767px) {
+    .press_newsbody {
+        padding: 0px 30px;
+    }
+
+    .press_row {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .presscard {
+        margin: 10px;
+        height: auto;
+    }
+
+    .press_newsbtn {
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .press_newstop {
+        padding-bottom: 20px;
+    }
+
+    .press_newshead {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .press_newsbody {
+        padding: 0px 5px;
+    }
+}
+
+/* Follow us part */
+
+#follow_us {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    background-color: #F4F4F4;
+}
+
+.followbody {
+    padding: 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follow_left {
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.follow_right {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.followCard {
+    width: 50%;
+}
+
+.follow_head {
+    font-size: 40px;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-bottom: 35px;
+}
+
+.follow_left p {
+    color: #6D6D6D;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 120%;
+    padding-bottom: 35px;
+}
+
+.followus_btn {
+    background-color: #009788;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 36px;
+    width: 287px;
+    height: 50px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.social {
+    color: #009788;
+}
+
+.followCard-body {
+    padding: 10px 15px;
+}
+
+.card-head {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.linkedin_icon {
+    font-size: 25px;
+    margin-right: 4px;
+    color: #0A66C2;
+}
+
+.followcard-text {
+    padding-top: 15px;
+}
+
+.cardimg-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.cardimg-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive */
+
+@media (max-width: 991px) {
+    .followbody {
+        padding: 0px 50px;
+    }
+
+    .follow_head {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .followCard {
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    .followbody {
+        padding: 0px 30px;
+    }
+
+    .follow_left,
+    .follow_right {
+        width: 50%;
+    }
+
+    .follow_left p {
+        font-size: 15px;
+    }
+
+    .followCard {
+        width: 90%;
+    }
+
+    .followus_btn {
+        font-size: 13px;
+        width: 260px;
+        height: 40px;
+    }
+
+    .followcard-text {
+        padding-top: 13px;
+    }
+}
+
+@media (max-width: 575px) {
+    #follow_us {
+        padding: 30px 0px;
+    }
+
+    .followbody {
+        flex-direction: column;
+        padding: 0px 5px;
+    }
+
+    .follow_left,
+    .follow_right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .follow_left {
+        margin-bottom: 25px;
+    }
+
+    .followCard {
+        width: 100%;
+    }
+
+    .follow_head {
+        font-size: 22px;
+        letter-spacing: 1px;
+        padding-bottom: 15px;
+    }
+
+    .follow_left p {
+        padding-bottom: 15px;
+    }
+
+    .followcard-text {
+        padding-top: 5px;
+    }
+}
+
+/* Press form part */
+
+#pressform_main {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+}
+
+.passform_body {
+    padding: 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pressform_left {
+    width: 40%;
+}
+
+.pressform_right {
+    width: 60%;
+}
+
+.pressform_img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#pressform_img1 {
+    width: 280px;
+    height: 320px;
+    position: relative;
+}
+
+#pressform_img1 img {
+    width: 100%;
+    height: 100%;
+}
+
+#pressform_img2 {
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    z-index: -1;
+}
+
+#pressform_img2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.pressform_head {
+    margin: 0px auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+.pressform_right form {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.pressform_input {
+    margin: 20px 0px;
+}
+
+.pressform_input input[type=text], .pressform_input input[type='email'] {
+    display: block;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #646464;
+    border-radius: 8px;
+    outline: 0;
+    padding: 5px 10px;
+}
+
+.pressinput_name {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#fname,
+#lname {
+    flex-basis: 45%;
+}
+
+.pressform_btn {
+    width: 159px;
+    height: 50px;
+    padding: 10px;
+    background-color: #009788;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 36px;
+    font-size: 16px;
+}
+
+.checkbox_text {
+    margin-left: 5px;
+    color: #6D6D6D;
+    font-size: 16px;
+}
+
+/* Responsive */
+
+@media (max-width:991px) {
+    .passform_body {
+        padding: 0px 50px;
+    }
+
+    .pressform_head {
+        font-size: 25px;
+        padding-bottom: 25px;
+        width: 100%;
+    }
+
+    .pressform_left {
+        width: 50%;
+    }
+
+    .pressform_right {
+        width: 50%;
+    }
+}
+
+@media (max-width:767px) {
+    .passform_body {
+        padding: 0px 30px;
+    }
+
+    .pressform_head {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .pressform_left {
+        margin-right: 15px;
+    }
+
+    .pressform_right form {
+        width: 100%;
+    }
+
+    #pressform_img1 {
+        width: 230px;
+        height: 280px;
+    }
+
+    #pressform_img2 {
+        width: 250px;
+        height: 300px;
+    }
+    .checkbox_text{
+        font-size: 13px;
+    }
+    .pressform_input input::placeholder{
+        font-size: 14px;
+    }
+    .pressform_btn{
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width:575px) {
+    .passform_body {
+        padding: 0px 5px;
+        flex-direction: column;
+    }
+
+    .pressform_left {
+        display: flex;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .pressform_left,
+    .pressform_right {
+        width: 100%;
+    }
+
+    .pressform_img {
+        display: inline-block;
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+    }
+
+    .pressform_btndiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Ending of press page */

@@ -1,0 +1,160 @@
+.bannerTextInformSection {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infrmPara {
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 16.75px;
+    text-transform: uppercase;
+}
+
+.infrmSecPara {
+    color: #000;
+    text-align: center;
+    font-size: 35px;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 1100px;
+}
+
+.contrayPara {
+    width: 1200px;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 120%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1399px){
+    .infrmPara {
+        font-size: 41px;
+        letter-spacing: 14px;
+    }
+
+    .contrayPara {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .infrmPara {
+        font-size: 33px;
+        letter-spacing: 10px;
+    }
+
+    .infrmSecPara {
+        font-size: 26px;
+        width: 992px;
+    }
+
+    .contrayPara {
+        width: 950px;
+        font-size: 13px;
+    }
+
+    .bannerTextInformSection {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .infrmPara {
+        font-size: 29px;
+        letter-spacing: 7px;
+    }
+
+    .infrmSecPara {
+        font-size: 24px;
+        width: 768px;
+        letter-spacing: 0;
+    }
+
+    .contrayPara {
+        width: 740px;
+        font-size: 11px;
+        margin-top: 0;
+        line-height: 13px;
+    }
+
+    .bannerTextInformSection {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .infrmPara {
+        font-size: 22px;
+        letter-spacing: 5px;
+    }
+
+    .infrmSecPara {
+        font-size: 20px;
+        width: 550px;
+        letter-spacing: 0;
+    }
+
+    .contrayPara {
+        width: 550px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .contrayPara {
+        width: 450px;
+    }
+
+    .infrmSecPara {
+        font-size: 16px;
+        width: 455px;
+        margin-bottom: 10px;
+    }
+
+    .infrmPara {
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+
+    .bannerTextInformSection {
+        height: 180px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 479px){
+    .contrayPara {
+        width: 300px;
+        font-size: 9px;
+    }
+
+    .infrmSecPara {
+        font-size: 10px;
+        width: 285px;
+    }
+
+    .infrmPara {
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+
+    .bannerTextInformSection {
+        margin: 15px 0;
+    }
+}

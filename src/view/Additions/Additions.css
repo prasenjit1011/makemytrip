@@ -1,0 +1,264 @@
+.cardPart {
+    display: flex;
+    background-color: #FBFBFB;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    width: 710px;
+    padding: 10px;
+}
+
+.firstCardPart{
+    margin-bottom: 30px;
+}
+
+.cardImgPart{
+    width: 280px;
+    max-height: 183px;
+    margin-bottom: 0;
+    border-radius: 11px;
+}
+
+.cardImgPart img{
+    width: 100%;
+    height: 100%;
+}
+
+.cardTextPart{
+    width: 100%;
+    padding-left: 20px;
+}
+
+.entText {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #7C7C7C;
+    margin-bottom: 10px;
+}
+
+.parTextPart{
+    margin-bottom: 9px;
+}
+.parTextPart p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 0;
+}
+.againRating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    margin-bottom: 30px;
+}
+.ratePartStar{
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratePartStar i {
+    color: #FBBC04;
+}
+
+.agNumRate {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.agUserNum {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.footCardPart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.agDoll {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 120%;
+    color: #000000;
+}
+.agPer {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #787070;
+}
+.seActBtnPart{
+    margin-bottom: 0;
+}
+.seActBtnPart button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    color: #FFFFFF;
+    background-color: #00B19F;
+    border: 1px solid #00B19F;
+    border-radius: 10px;
+    width: 200px;
+    height: 52px;
+    padding: 10px;
+}
+
+@media (max-width: 1500px) {
+    .cardPart {
+        width: 653px;
+    }
+    .parTextPart p {
+        font-size: 20px;
+    }
+    .agDoll {
+        font-size: 20px;
+    }
+    .agPer {
+        font-size: 15px;
+    }
+    .seActBtnPart button {
+        font-size: 19px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .cardPart {
+        width: 560px;
+    }
+    .parTextPart p {
+        font-size: 16px;
+    }
+    .seActBtnPart button {
+        font-size: 16px;
+        width: 160px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .cardPart {
+        width: 458px;
+    }
+    .entText {
+        font-size: 15px;
+    }
+    .parTextPart p {
+        font-size: 13px;
+    }
+    .agDoll {
+        font-size: 14px;
+    }
+    .agPer {
+        font-size: 12px;
+    }
+    .seActBtnPart button {
+        font-size: 13px;
+        width: 120px;
+        height: 47px;
+    }
+}
+
+@media (max-width: 991px) {
+    .cardPart{
+        width: 100%;
+    }
+    .entText {
+        font-size: 18px;
+    }
+    .parTextPart p {
+        font-size: 21px;
+    }
+    .againRating {
+        margin-bottom: 40px;
+    }
+    .agDoll {
+        font-size: 21px;
+    }
+    .agPer {
+        font-size: 14px;
+    }
+    .seActBtnPart button {
+        font-size: 18px;
+        width: 175px;
+        height: 46px;
+    }
+}
+
+@media (max-width: 767px) {
+    .entText {
+        font-size: 15px;
+    }
+    .agDoll {
+        font-size: 18px;
+    }
+    .agPer {
+        font-size: 13px;
+    }
+    .seActBtnPart button {
+        font-size: 15px;
+        width: 130px;
+        height: 41px;
+    }
+    .checkHead {
+        padding: 50px 31px 0 15px;
+    }
+    .bookingPart {
+        padding-left: 15px;
+    }
+}
+@media (max-width: 576px) {
+    .entText {
+        font-size: 12px;
+    }
+    .parTextPart p {
+        font-size: 14px;
+    }
+    .agDoll {
+        font-size: 16px;
+    }
+    .agPer {
+        font-size: 12px;
+    }
+    .seActBtnPart button {
+        font-size: 12px;
+        width: 103px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cardPart{
+        flex-wrap: wrap;
+    }
+    .cardImgPart {
+        width: 100%;
+        max-height: 100%;
+        margin-bottom: 20px;
+    }
+    .againRating {
+        margin-bottom: 35px;
+    }
+}

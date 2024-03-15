@@ -1,0 +1,164 @@
+
+/* Starting of legal notice page */
+/* Banner part */
+
+#legal_banner {
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.legal_bannerhead {
+    font-size: 80px;
+    line-height: 70px;
+    color: white;
+    letter-spacing: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#legal_banner:after{
+    background: linear-gradient(rgba(80, 79, 79, 0.4), rgb(68, 66, 66, 0.4), rgba(87, 86, 86, 0.4));
+    position:absolute;
+    content:"";
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+}
+.press_bannerimg{
+    position: relative;
+    z-index: 1;
+}
+/* Responsive */
+
+@media (max-width: 991px) {
+    #legal_banner {
+        height: 300px;
+    }
+
+    .legal_bannerhead {
+        font-size: 55px;
+        letter-spacing: 4px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    #legal_banner {
+        height: 250px;
+    }
+
+    .legal_bannerhead {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 575px) {
+    .legal_bannerhead {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+/* Body part */
+
+#legal_body{
+    width: 100%;
+    height: auto;
+    padding: 70px 0px;
+}
+.legal_bodymain{
+    padding: 0px 100px;
+}
+.legal_top{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.legal_head{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 5%;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+.legal_row{
+    margin: 20px 0px;
+}
+.legal_rowhead{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000000;
+}
+.legal_rowpara{
+    width: 50%;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.6px;
+    color: #6D6D6D;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 10px;
+}
+.legal_contact{
+    color: #009788;
+    font-weight: 400;
+}
+
+/* Responsive */
+
+@media (max-width:991px){
+    .legal_bodymain{
+        padding: 0px 70px;
+    }
+    .legal_rowpara{
+        width: 100%;
+    }
+}
+
+@media (max-width:767px){
+    #legal_body{
+        padding: 50px 0px;
+    }
+    .legal_bodymain{
+        padding: 0px 30px;
+    }
+    .legal_head{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:575px){
+    #legal_body{
+        padding: 30px 0px;
+    }
+    .legal_bodymain{
+        padding: 0px 10px;
+    }
+    .legal_head{
+        font-size: 25px;
+    }
+    .legal_top{
+        padding-bottom: 15px;
+    }
+    .legal_rowhead{
+        font-size: 18px;
+    }
+    .legal_rowpara{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .legal_row{
+        margin: 10px 0px;
+    }
+}
+/* ending of legal notice page */

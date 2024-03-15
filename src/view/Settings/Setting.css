@@ -1,0 +1,263 @@
+.settingPageSection {
+  margin: 50px 0;
+}
+
+.settingLeft {
+  width: 100%;
+  border-left: 1px solid #85818157;
+  border-right: 1px solid #85818157;
+}
+
+.headingSetLeft {
+  width: 100%;
+  background-color: #f95d12;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+}
+
+.mainHeadName {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 5px 0 0 0;
+}
+
+.accHeading {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 800;
+  margin: 2px 0 0 0;
+}
+
+.mySettingTab .nav-pills .nav-link {
+  border-radius: 0;
+}
+
+.mySettingTab .nav-link {
+  color: #1a2b49;
+  font-weight: 600;
+  font-size: 16px;
+  border-bottom: 1px solid #85818157;
+  text-align: left;
+}
+
+.mySettingTab .active {
+  background-color: #ffffff !important;
+  color: #1a2b49 !important;
+}
+
+.subBtnText {
+  margin-left: 7px;
+}
+
+.frmFieldHead {
+  font-size: 20px;
+  font-weight: 800;
+  color: #1a2b49;
+  margin: 0;
+  border-bottom: 1px solid #85818157;
+}
+
+.frmFieldDivs {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.frmSubFieldDivs {
+  width: 49%;
+}
+
+.frmSubFieldDivs input {
+  width: 100%;
+  border: 2px solid #85818157;
+  color: #1a2b49;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition-property: all;
+  transition-duration: 400ms;
+}
+.frmSubFieldDivs.mycountrycode{
+position: relative;
+border: 2px solid #d2c0c057;
+border-radius: 5px;
+}
+.frmSubFieldDivs.mycountrycode select{
+  position: absolute;
+  height: 44px;
+  border: 0;
+  border-right: 2px solid #d2c0c057;
+  border-radius: 0;
+}
+.form-control:focus {
+  box-shadow: none;
+  outline: 0;
+}
+.frmSubFieldDivs.mycountrycode input{
+  border:0;
+  padding-left: 28%;
+}
+.frmSubFieldDivs input::-webkit-inner-spin-button,
+.frmSubFieldDivs input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.frmSubFieldDivs input:focus {
+  border-color: #f95d12;
+}
+
+.fromAllDivs {
+  margin-top: 20px;
+}
+
+.frmSubSelectDivs {
+  width: 32%;
+}
+
+.frmSubSelectDivs select {
+  width: 100%;
+  border: 2px solid #85818157;
+  color: #1a2b49;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition-property: all;
+  transition-duration: 400ms;
+}
+
+.frmSubSelectDivs select:focus {
+  border-color: #0071eb;
+}
+
+.saveSetBtn {
+  background-color: #f95d12;
+  color: #ffffff;
+  border: 0;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+.readonlyInp {
+  background-color: transparent;
+  cursor: not-allowed;
+}
+
+.resetHead {
+  font-size: 35px;
+  color: #1a2b49;
+  font-weight: bold;
+  margin: 0;
+}
+
+.resetText {
+  font-size: 18px;
+  color: #1a2b49;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+}
+
+.saveSetBtn:hover {
+  background-color: #304c84;
+}
+
+.notificationDiv {
+  width: 49%;
+}
+
+.notiMainDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notiMainHead {
+  font-size: 17px;
+  color: #1a2b49;
+  font-weight: 700;
+  margin: 0;
+  border-bottom: 1px solid #85818157;
+}
+
+.notMailPara {
+  font-size: 16px;
+  color: #1a2b49;
+  font-weight: 600;
+  margin: 0;
+}
+
+.getImpoText {
+  font-size: 17px;
+  color: #63687a;
+  font-weight: 500;
+  margin: 12px 0 0 0;
+  line-height: 20px;
+}
+
+.chkSpanDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.spnText {
+  color: #1a2b49;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.notMailFirstPara {
+  margin-top: 12px;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  color: #fff;
+  border-color: #00ff65;
+  background-color: #00ff82;
+}
+.custom-switch .custom-control-label::before {
+  left: -2.25rem;
+  width: 1.75rem;
+  pointer-events: all;
+  border-radius: 0.5rem;
+  background-color: #f95d12;
+}
+@media (max-width: 575px) {
+  .notiMainDiv {
+    display: block;
+  }
+
+  .notificationDiv {
+    width: 100%;
+  }
+}
+
+@media (max-width: 479px) {
+  .resetHead {
+    font-size: 25px;
+  }
+}
+
+
+.innerdiv{
+  display: flex;
+  align-items: center;
+  border:1px solid gray ;
+  border-radius: 0.2rem;
+  padding: 0 0.2rem 0 0.2rem;
+  
+}

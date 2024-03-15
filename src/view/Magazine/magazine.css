@@ -1,0 +1,494 @@
+.magBannerSection {
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.backMegaDiv {
+    width: 100%;
+    height: 100%;
+    background-color: #00000060;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.magHead {
+    color: #FFF;
+    font-size: 75px;
+    font-family: Open Sans;
+    font-weight: 700;
+    letter-spacing: 33.5px;
+    text-transform: uppercase;
+}
+
+.isThText {
+    color: #000;
+    text-align: center;
+    font-size: 41px;
+    font-family: Open Sans;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    width: 700px;
+}
+
+.myMagContainer {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.megaPicDiv {
+    height: 440px;
+    position: relative;
+    width: 40%;
+}
+
+.megaTextDiv {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.doubDiv {
+    margin-bottom: 100px;
+}
+
+.myMegConRow {
+    display: flex;
+    width: 100%;
+}
+
+.megFig {
+    width: 336px;
+    height: 397px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+.megFig img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.megFig1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.megFig2 {
+    position: absolute;
+    top: 40px;
+    left: 125px;
+    z-index: 2;
+}
+
+.figCapa {
+    color: #000;
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 700;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.thPics {
+    width: 380px;
+    height: 203px;
+}
+
+.thPics img {
+    width: 100%;
+    height: 100%;
+}
+
+.thPicsDiv {
+    max-width: 354px;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.thPicsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.threePicSection {
+    margin-bottom: 100px;
+}
+
+.megFig3 {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    z-index: 1;
+}
+
+.megFig4 {
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+
+.megaTextDiv2 {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.reDiv {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: baseline;
+}
+
+.redText {
+    color: #009788;
+    font-size: 19px;
+    font-family: Josefin Sans;
+    margin-right: 10px;
+}
+
+.arrFig {
+    width: 35px;
+    /* height: 3px; */
+    margin: 0;
+}
+
+.arrFig img {
+    width: 100%;
+    height: 100%;
+}
+
+.pagiLi {
+    list-style-type: none;
+    margin-right: 10px;
+    text-align: center;
+    width: 29px;
+    height: 37.419px;
+    padding: 9.355px;
+    border-radius: 4.677px;
+    background: #FFF;
+    box-shadow: 1.8709677457809448px 1.8709677457809448px 9.354838371276855px 0px rgba(0, 0, 0, 0.10);
+    color: #009788;
+    font-family: Josefin Sans;
+    font-weight: 400;
+}
+
+.pagiUl {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.pageArrow {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.activePageLi {
+    background-color: #009788;
+    color: #FFFFFF;
+}
+
+.paginationSection {
+    margin-bottom: 150px;
+}
+
+@media screen and (max-width: 1399px) {
+    .isThText {
+        font-size: 30px;
+        width: 675px;
+    }
+
+    .myMagContainer {
+        max-width: 1100px;
+    }
+
+    .thPics {
+        width: 350px;
+        height: 195px;
+    }
+
+    .figCapa {
+        font-size: 18px;
+    }
+
+    .megFig2 {
+        left: 55px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .isThText {
+        font-size: 20px;
+        width: 490px;
+    }
+
+    .megaTextDiv {
+        width: 55%;
+    }
+
+    .megaPicDiv {
+        width: 45%;
+        height: 367px;
+    }
+
+    .myMagContainer {
+        max-width: 900px;
+    }
+
+    .megFig {
+        width: 275px;
+        height: 320px;
+    }
+
+    .megFig2 {
+        left: 93px;
+        top: 35px;
+    }
+
+    .thPics {
+        min-width: 300px;
+        height: 195px;
+        margin-right: 25px;
+    }
+
+    .thPicsContainer {
+        overflow-x: auto;
+        padding-bottom: 30px;
+    }
+
+    .magHead {
+        font-size: 65px;
+    }
+
+    .magBannerSection {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .isThText {
+        font-size: 15px;
+        width: 380px;
+    }
+
+    .megFig {
+        width: 245px;
+        height: 290px;
+    }
+
+    .megFig2 {
+        left: 53px;
+        top: 35px;
+    }
+
+    .myMagContainer {
+        max-width: 730px;
+    }
+
+    .megFig3 {
+        top: 35px;
+    }
+
+    .redText {
+        font-size: 16px;
+    }
+
+    .magHead {
+        font-size: 50px;
+    }
+
+    .magBannerSection {
+        height: 325px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .magHead {
+        font-size: 35px;
+    }
+
+    .magBannerSection {
+        height: 265px;
+    }
+
+
+    .megFig {
+        width: 210px;
+        height: 245px;
+    }
+
+    .megaPicDiv {
+        height: 244px;
+    }
+
+    .megFig2 {
+        left: 14px;
+        top: 31px;
+    }
+
+    .isThText {
+        font-size: 12px;
+        width: 260px;
+    }
+
+    .megFig {
+        width: 173px;
+        height: 210px;
+    }
+
+    .myMagContainer {
+        max-width: 540px;
+    }
+
+    .megFig2 {
+        left: 40px;
+        top: 28px;
+    }
+
+    .megFig4 {
+        left: 28px;
+    }
+
+    .megFig3 {
+        top: 24px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .magHead {
+        font-size: 24px;
+        letter-spacing: 20px;
+    }
+
+    .magBannerSection {
+        height: 220px;
+    }
+
+    .isThText {
+        font-size: 10px;
+        width: 225px;
+    }
+
+    .myMagContainer {
+        max-width: 450px;
+    }
+
+    .megFig {
+        width: 147px;
+        height: 180px;
+    }
+
+    .megaPicDiv {
+        height: 214px;
+    }
+
+    .megFig2 {
+        left: 29px;
+        top: 25px;
+    }
+
+    .megFig4 {
+        left: 24px;
+    }
+
+    .megFig3 {
+        top: 20px;
+    }
+
+    .redText {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .magHead {
+        font-size: 18px;
+        letter-spacing: 16px;
+    }
+
+    .magBannerSection {
+        height: 180px;
+    }
+
+    .myMagContainer {
+        max-width: 310px;
+    }
+
+    .isThText {
+        font-size: 8px;
+        width: 135px;
+    }
+
+    .megFig {
+        width: 105px;
+        height: 131px;
+    }
+
+    .megFig2 {
+        left: 1px;
+        top: 19px;
+    }
+
+    .megaPicDiv {
+        height: 155px;
+    }
+
+    .megFig4 {
+        left: 19px;
+    }
+
+    .megFig3 {
+        top: 17px;
+    }
+
+    .redText {
+        font-size: 11px;
+    }
+
+    .doubDiv {
+        margin-bottom: 30px;
+    }
+
+    .threePicSection {
+        margin-bottom: 30px;
+    }
+
+    .paginationSection {
+        margin-bottom: 50px;
+    }
+
+    .pagiLi {
+        font-size: 15px;
+        padding: 7px;
+        height: 32px;
+    }
+
+    .reDiv {
+        right: 5px;
+    }
+
+    .thPics {
+        min-width: 250px;
+        width: 285px;
+        height: 167px;
+        margin-right: 20px;
+    }
+
+    .figCapa {
+        font-size: 14px;
+    }
+}

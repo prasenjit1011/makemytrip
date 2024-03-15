@@ -1,0 +1,593 @@
+/* Starting of Careers page */
+
+#career_banner {
+    width: 100%;
+    height: 500px;
+    /* background: linear-gradient(rgba(80, 79, 79, 0.4), rgb(68, 66, 66, 0.4), rgba(87, 86, 86, 0.4)), url(../Images/Careercover.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#career_banner:after{
+    background: linear-gradient(rgba(80, 79, 79, 0.4), rgb(68, 66, 66, 0.4), rgba(87, 86, 86, 0.4));
+    position:absolute;
+    content:"";
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+}
+.career_bannerimg{
+    position: relative;
+    z-index: 1;
+}
+.careerbanner_head {
+    font-size: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 7px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Responsive */
+
+@media (max-width: 991px) {
+    #career_banner {
+        height: 400px;
+    }
+
+    .careerbanner_head {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    #career_banner {
+        height: 300px;
+    }
+}
+
+/* career top */
+
+#career_top {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.career_topbody {
+    padding: 0px 100px;
+}
+
+.careertop_head {
+    padding-bottom: 20px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.careertop_para {
+    color: #6D6D6D;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.career_button {
+    margin: 40px 0px;
+}
+
+.career_button button {
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #009788;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* career experience part */
+
+#career_exp {
+    width: 100%;
+    height: auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.exp_body {
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.changetext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.changeHead {
+    flex-basis: 60%;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.changeArrow {
+    flex-basis: 40%;
+}
+
+.exp_text {
+    padding: 10px;
+    flex-basis: 50%;
+}
+
+.exp_text p {
+    color: #B6B6B6;
+    font-size: 16px;
+}
+
+.exp_img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    flex-basis: 50%;
+}
+
+.expimgwrapper {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+#expimg1 {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+#expimg2 {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.imgdesignwrapper {
+    position: absolute;
+    right: -5%;
+    top: -7%;
+    z-index: -1;
+}
+
+/* Problem solving part */
+
+#problem_solving {
+    width: 100%;
+    height: auto;
+    padding: 100px 100px;
+}
+
+.problem_body {
+    padding: 0px 30px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+
+.problemimg {
+    /* flex-basis: 30%; */
+    height: 100%;
+}
+
+.problemimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.problemText {
+    flex-basis: 70%;
+    padding: 10px 20px;
+}
+
+.problemhead {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.problempara {
+    color: #000000;
+    font-weight: 300;
+    line-height: 26px;
+    font-size: 18px;
+    padding: 15px 0px;
+}
+
+/* Support part */
+
+#support {
+    width: 100%;
+    height: auto;
+    /* background: linear-gradient(to top, rgba(15, 15, 15, 0.7), rgb(51, 49, 49, 0.5), rgb(110, 109, 109, 0.3)), url(../Images/CareerCover2.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #FFFFFF;
+}
+
+.support_body {
+    padding: 30px 0px;
+}
+
+.support_top {
+    text-align: center;
+}
+
+.support_head {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.support_para {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 20px 0px;
+}
+
+.supportimg {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.support_icon {
+    width: 100px;
+    height: 100px;
+    /* padding: 5px; */
+}
+
+.support_icon img {
+    width: 100%;
+    height: 100%;
+}
+
+#support_circle {
+    /* background-image: url(../Images/SupportEllipse.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Team part */
+
+#team {
+    width: 100%;
+    height: auto;
+    padding: 100px 0px;
+    position: relative;
+}
+
+.team_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.team_img {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team_text {
+    flex-basis: 40%;
+}
+
+.team_imgwrapper {
+    padding: 5px;
+    width: 200px;
+    height: 250px;
+}
+
+.team_imgwrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.color_bg {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    background: #C3FFF8;
+    width: 50%;
+    height: 200px;
+    z-index: -1;
+}
+
+/* #teamimg1{
+    margin-bottom: 10px;
+} */
+#teamimg2 {
+    margin-top: 70px;
+}
+
+#teamimg3 {
+    margin-bottom: 70px;
+}
+
+/* #teamimg4{
+    margin-top: 10px;
+} */
+.team_head {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.team_para {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000000;
+    padding-top: 10px;
+    line-height: 24px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 991px) {
+    #career_top {
+        padding-top: 50px;
+    }
+
+    .career_topbody {
+        padding: 0px 30px;
+    }
+
+    .careertop_para {
+        font-size: 16px;
+    }
+
+    .exp_body {
+        padding: 0px 30px;
+    }
+
+    .expimgwrapper {
+        width: 300px;
+        height: 200px;
+    }
+
+    .expimgwrapper img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imgdesignwrapper {
+        top: -12%;
+        right: -15%;
+    }
+
+    #problem_solving {
+        padding: 100px 30px;
+    }
+
+    .problem_body {
+        padding: 10px 15px;
+    }
+
+    .problemimg {
+        flex-basis: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .problemText {
+        flex-basis: 60%;
+        text-align: center;
+    }
+
+    .problemhead {
+        font-size: 25px;
+    }
+
+    .problempara {
+        font-size: 16px;
+    }
+
+    #team {
+        padding: 50px 0px;
+    }
+
+    .team_body {
+        flex-direction: column-reverse;
+        padding: 0px 30px;
+    }
+
+    .team_img {
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .team_text {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .color_bg {
+        display: none;
+    }
+
+    .team_imgwrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .team_imgwrapper img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #teamimg2 {
+        margin: 0px;
+    }
+
+    #teamimg3 {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    #career_top {
+        padding-top: 30px;
+    }
+
+    .career_topbody {
+        padding: 0px 20px;
+    }
+
+    .exp_body {
+        padding: 0px 20px;
+    }
+
+    #problem_solving {
+        padding: 50px 30px;
+    }
+
+    .imgdesignwrapper {
+        top: -20%;
+        right: -10%;
+    }
+
+    .support_icon {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 575px) {
+    .career_topbody {
+        padding: 0px 5px;
+    }
+
+    .career_button {
+        margin: 15px 0px;
+    }
+
+    .career_button button {
+        width: 180px;
+        font-size: 18px;
+    }
+
+    .exp_body {
+        padding: 0px 5px;
+    }
+
+    .exp_body {
+        flex-direction: column;
+    }
+
+    .changeArrow {
+        display: none;
+    }
+
+    .imgdesignwrapper {
+        display: none;
+    }
+
+    #expimg1,
+    #expimg2 {
+        margin: 0;
+    }
+
+    .changetext {
+        display: block;
+    }
+
+    .changeHead {
+        width: 100%;
+        text-align: center;
+    }
+
+    .changepara {
+        text-align: center;
+        padding-top: 10px;
+        line-height: 20px;
+    }
+
+    #problem_solving {
+        padding: 30px 15px;
+    }
+
+    .problem_body {
+        flex-direction: column-reverse;
+        padding: 5px 5px;
+    }
+
+    .problemhead {
+        font-size: 20px;
+    }
+
+    .problempara {
+        font-size: 15px;
+    }
+
+    .support_head {
+        font-size: 20px;
+    }
+
+    .support_para {
+        font-size: 13px;
+    }
+
+    .support_icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    #team {
+        padding: 30px 0px;
+    }
+
+    .team_body {
+        padding: 0px;
+    }
+
+    .team_head {
+        font-size: 23px;
+    }
+
+    .team_para {
+        font-size: 15px;
+        line-height: 20px
+    }
+}
+
+/* Ending of careers page */

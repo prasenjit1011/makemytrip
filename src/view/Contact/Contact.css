@@ -1,0 +1,553 @@
+.banerInformSection {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+
+.banerInformDiv {
+    width: 100%;
+    height: 100%;
+    background-color: #00000073;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greetingPara {
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 16.75px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    width: 1072px;
+}
+
+.searDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchHead {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-family: Josefin Sans;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.serInpDiv {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 15px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.searInp {
+    width: 100%;
+    border: 0;
+    padding: 10px 15px;
+    border-bottom: 1px solid #000;
+    outline: 0;
+    color: #000;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+}
+
+.searInp::placeholder {
+    color: #747474;
+    font-weight: 300;
+}
+
+.conSearch {
+    font-size: 18px;
+}
+
+.conSearchDiv {
+    background-color: #DDD;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    right: 6px;
+    top: 0;
+}
+
+/*  */
+.accorConMainDiv {
+    width: 600px;
+}
+
+.accorConMainDiv #faq .card {
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.accorConMainDiv #faq .card .card-header {
+    border: 0;
+    border-radius: 2px;
+    padding: 0;
+}
+
+.accorConMainDiv #faq .card .card-header .btn-header-link {
+    display: block;
+    padding: 10px 20px;
+    background-color: #FFF;
+    text-align: left;
+    color: #000;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 500;
+}
+
+.accorConMainDiv #faq .card .card-header .btn-header-link:after {
+    content: "\f107";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    float: right;
+}
+
+.accorConMainDiv #faq .card .card-header .btn-header-link.collapsed {
+    color: #000;
+    background-color: #FFF;
+}
+
+.accorConMainDiv #faq .card .card-header .btn-header-link.collapsed:after {
+    content: "\f106";
+}
+
+.accorConMainDiv #faq .card .collapsing {
+    line-height: 30px;
+}
+
+.accorConMainDiv #faq .card .collapse {
+    border: 0;
+}
+
+.accorConMainDiv #faq .card .collapse.show {
+    line-height: 30px;
+    color: #222;
+}
+
+.myAccrCardBody #faqAccSub .card {
+    margin-bottom: 0;
+    border: 0;
+}
+
+.myAccrCardBody {
+    padding: 0;
+}
+
+.myAccrCardBody #faqAccSub .card .card-header .btn-header-link {
+    padding: 10px 20px;
+}
+
+.myAccrCardBody #faqAccSub .card .card-header .btn-header-link.collapsed {
+    color: #009788;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 500;
+}
+
+.myAccrCardBody #faqAccSub .card .card-header .btn-header-link {
+    color: #009788;
+}
+
+/* acc2 */
+.myAccrCardBody2 #faqAccSub2 .card {
+    margin-bottom: 0;
+    border: 0;
+}
+
+.myAccrCardBody2 {
+    padding: 0;
+}
+
+.myAccrCardBody2 #faqAccSub2 .card .card-header .btn-header-link {
+    padding: 10px 20px;
+}
+
+.myAccrCardBody2 #faqAccSub2 .card .card-header .btn-header-link.collapsed {
+    color: #009788;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 500;
+}
+
+.myAccrCardBody3 #faqAccSub3 .card .card-header .btn-header-link {
+    color: #009788;
+}
+
+/* acc3 */
+.myAccrCardBody3 #faqAccSub3 .card {
+    margin-bottom: 0;
+    border: 0;
+}
+
+.myAccrCardBody3 {
+    padding: 0;
+}
+
+.myAccrCardBody3 #faqAccSub3 .card .card-header .btn-header-link {
+    padding: 10px 20px;
+}
+
+.myAccrCardBody3 #faqAccSub3 .card .card-header .btn-header-link.collapsed {
+    color: #009788;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 500;
+}
+
+.myAccrCardBody3 #faqAccSub3 .card .card-header .btn-header-link {
+    color: #009788;
+}
+
+/* acc4 */
+.myAccrCardBody4 #faqAccSub4 .card {
+    margin-bottom: 0;
+    border: 0;
+}
+
+.myAccrCardBody4 {
+    padding: 0;
+}
+
+.myAccrCardBody4 #faqAccSub4 .card .card-header .btn-header-link {
+    padding: 10px 20px;
+}
+
+.myAccrCardBody4 #faqAccSub4 .card .card-header .btn-header-link.collapsed {
+    color: #009788;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 500;
+}
+
+.myAccrCardBody4 #faqAccSub4 .card .card-header .btn-header-link {
+    color: #009788;
+}
+
+/* acc5 */
+.myAccrCardBody5 #faqAccSub5 .card {
+    margin-bottom: 0;
+    border: 0;
+}
+
+.myAccrCardBody5 {
+    padding: 0;
+}
+
+.myAccrCardBody5 #faqAccSub5 .card .card-header .btn-header-link {
+    padding: 10px 20px;
+}
+
+.myAccrCardBody5 #faqAccSub5 .card .card-header .btn-header-link.collapsed {
+    color: #009788;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 500;
+}
+
+.myAccrCardBody5 #faqAccSub5 .card .card-header .btn-header-link {
+    color: #009788;
+}
+
+/*  */
+
+.areBtnSection {
+    margin-top: 80px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.areYouPara {
+    color: #000;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 500;
+    width: 600px;
+    margin-bottom: 15px;
+}
+
+.areYouSpan {
+    color: #009788;
+}
+
+.stiiPara {
+    color: #000;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 600;
+}
+
+.areConBtn {
+    color: #009788;
+    text-align: center;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    font-weight: 500;
+    width: 160px;
+    height: 60px;
+    border-radius: 33px;
+    border: 2px solid #009788;
+    background-color: #FFF;
+}
+
+.arePBDiv {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.innerAccordionPanel {
+    padding: 0 !important;
+}
+
+.accorConMainDiv .accordion__button {
+    background-color: #fff;
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.innerReactAcc .accordion__button {
+    color: #009788;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1199px) {
+    .greetingPara {
+        font-size: 35px;
+        letter-spacing: 12px;
+        width: 758px;
+    }
+
+    .banerInformSection {
+        height: 350px;
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .greetingPara {
+        font-size: 32px;
+        letter-spacing: 8px;
+        width: 626px;
+    }
+
+    .banerInformSection {
+        height: 285px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .serInpDiv {
+        max-width: 545px;
+    }
+
+    .conSearch {
+        font-size: 16px;
+    }
+
+    .conSearchDiv {
+        padding: 7px 9px;
+    }
+
+    .searchHead {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .serInpDiv {
+        margin-bottom: 25px;
+    }
+
+    .accorConMainDiv {
+        margin: 10px 0;
+    }
+
+    .accorConMainDiv {
+        margin: 10px 0;
+    }
+
+    .accorConMainDiv #faq .card .card-header .btn-header-link {
+        padding: 7px 20px;
+        font-size: 18px;
+    }
+
+    .myAccrCardBody #faqAccSub .card .card-header .btn-header-link.collapsed {
+        font-size: 18px;
+    }
+
+    .areBtnSection {
+        margin-top: 0px;
+        padding-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .areYouPara {
+        font-size: 18px;
+        width: 550px;
+        margin-bottom: 10px;
+    }
+
+    .stiiPara {
+        font-size: 18px;
+    }
+
+    .areConBtn {
+        font-size: 18px;
+        width: 128px;
+        height: 44px;
+    }
+
+    .greetingPara {
+        font-size: 26px;
+        letter-spacing: 4px;
+        width: 475px;
+    }
+
+    .accorConMainDiv {
+        width: 545px;
+    }
+
+    .banerInformSection {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .serInpDiv {
+        max-width: 450px;
+    }
+
+    .accorConMainDiv {
+        width: 470px;
+    }
+
+    .areYouPara {
+        font-size: 16px;
+        width: 450px;
+        margin-bottom: 5px;
+    }
+
+    .stiiPara {
+        font-size: 16px;
+    }
+
+    .areConBtn {
+        font-size: 16px;
+        width: 115px;
+        height: 40px;
+    }
+
+    .searchHead {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .greetingPara {
+        font-size: 22px;
+        letter-spacing: 3px;
+        width: 450px;
+    }
+
+    .accorConMainDiv #faq .card .card-header .btn-header-link {
+        padding: 7px 9px;
+        font-size: 16px;
+    }
+
+    .myAccrCardBody #faqAccSub .card .card-header .btn-header-link.collapsed {
+        font-size: 16px;
+    }
+
+    .areBtnSection {
+        padding-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .banerInformSection {
+        height: 220px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .serInpDiv {
+        max-width: 300px;
+    }
+
+    .accorConMainDiv {
+        width: 300px;
+    }
+
+    .areYouPara {
+        font-size: 12px;
+        width: 300px;
+        margin-bottom: 3px;
+    }
+
+    .stiiPara {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .areConBtn {
+        font-size: 12px;
+        width: 90px;
+        height: 30px;
+    }
+
+    .accorConMainDiv #faq .card .card-header .btn-header-link {
+        padding: 7px 9px;
+        font-size: 12px;
+    }
+
+    .myAccrCardBody #faqAccSub .card .card-header .btn-header-link.collapsed {
+        font-size: 12px;
+    }
+
+    .searchHead {
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+
+    .searInp {
+        padding: 7px 12px;
+        font-size: 14px;
+    }
+
+    .conSearch {
+        font-size: 13px;
+    }
+
+    .conSearchDiv {
+        padding: 3px 8px;
+        border-radius: 8px;
+    }
+
+    .greetingPara {
+        font-size: 17px;
+        letter-spacing: 0px;
+        width: 300px;
+    }
+
+    .banerInformSection {
+        height: 180px;
+    }
+}

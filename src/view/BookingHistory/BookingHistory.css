@@ -1,0 +1,384 @@
+.bookHead {
+  /* padding: 130px 31px 0 31px; */
+  margin-top: 30px;
+}
+
+.bookHead p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.myBookingCard {
+  border: 1px solid #59657945;
+}
+
+.edinText {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 2px;
+}
+
+.edinAfterText {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.edinParagraph {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.edinParagraph span {
+  font-weight: 400;
+}
+
+.tpAftPart {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.tpAftPartFirst {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.totalPriceText {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 162.5%;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.afterTotalPri {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.7248px;
+  line-height: 162.5%;
+  color: #009788;
+  padding: 9.81654px;
+  background: #c5fff9;
+  border-radius: 4.90827px;
+  margin-bottom: 0;
+}
+
+.usDollarText {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 162.5%;
+  color: #009788;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.afterUsDol {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.7248px;
+  line-height: 162.5%;
+  color: #8d8d8d;
+  margin-bottom: 0;
+}
+
+.feedBackParent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.addFeedbackBtn button {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.6698px;
+  line-height: 200%;
+  color: #c6c6c6;
+  border: 0.981654px solid #d9d9d9;
+  border-radius: 4.90827px;
+  padding: 8.83489px 165px;
+}
+
+.addFeedbackBtn button:hover {
+  background-color: #009788;
+  color: #fff;
+}
+
+.startPartParent i {
+  color: #aaaaaa;
+  font-size: 25px;
+}
+
+.submitBtnParent {
+  margin-top: 10px;
+}
+
+.submitBtnParent button {
+  width: 100%;
+  background-color: #009788;
+  border-radius: 4.90827px;
+  border: 1px solid #009788;
+  padding: 9px 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.6698px;
+  line-height: 200%;
+  letter-spacing: 0.005em;
+  color: #ffffff;
+}
+
+.bookingImgPart {
+  padding: 0;
+}
+
+.bookingImgPart img {
+  width: 100%;
+  height: 100%;
+}
+
+.myBookBody {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.myBookingCard1 {
+  margin-bottom: 25px;
+}
+
+.myBookingCard2 {
+  padding-bottom: 250px;
+}
+
+.tabingParentRow {
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.myOwnTabs {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #c5c0c0;
+}
+
+.myOwnTabs .nav-item .nav-link {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  color: #a2a2a2;
+  width: 246px;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+/* .myOwnTabs .nav-tabs .nav-link:focus, */
+.nav-tabs .nav-link:hover {
+  border: 0 !important;
+  border-color: transparent;
+}
+
+.myOwnTabs .nav-item.show .nav-link,
+.myOwnTabs .nav-link.active {
+  background-color: #00000000;
+  color: #00b19f;
+  border: 0;
+  display: grid;
+}
+
+.myOwnTabs .nav-link.active::after {
+  content: '';
+  display: block;
+  width: 211px;
+  height: 3px;
+  background-color: #009788;
+  margin-top: 10px;
+}
+
+.bookingTextPart {
+  width: 100%;
+  padding: 10px 15px 10px 0;
+}
+
+.viewRateBtns {
+  display: flex;
+}
+
+.rateBtnDiv {
+  margin-left: 10px;
+}
+
+.bookNavItem {
+  width: 32%;
+}
+
+@media screen and (max-width: 1400px) {
+  .addFeedbackBtn button {
+    padding: 8.83489px 143px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .afterTotalPri {
+    font-size: 10px;
+    padding: 6px;
+    width: 66px;
+    text-align: center;
+  }
+
+  .afterUsDol {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+
+  .startPartParent i {
+    font-size: 20px;
+  }
+
+  .addFeedbackBtn button {
+    font-size: 14px;
+    padding: 8.83489px 165px;
+  }
+
+  .submitBtnParent button {
+    padding: 7px 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .afterTotalPri {
+    font-size: 8px;
+    width: 57px;
+  }
+
+  .afterUsDol {
+    font-size: 11px;
+  }
+
+  .startPartParent i {
+    font-size: 13px;
+  }
+
+  .addFeedbackBtn button {
+    font-size: 12px;
+    padding: 8.83489px 97px;
+  }
+
+  .submitBtnParent button {
+    padding: 4px 0;
+    font-size: 14px;
+  }
+
+  .edinText {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .myOwnTabs .nav-item .nav-link {
+    font-size: 21px;
+    width: 163px;
+  }
+
+  .myOwnTabs .nav-link.active::after {
+    width: 133px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .addFeedbackBtn button {
+    padding: 8.83489px 88px;
+  }
+
+  .myBookingCard2 {
+    padding-bottom: 190px;
+  }
+}
+
+@media (max-width: 575px) {
+  .bookingTextPart {
+    padding: 15px 10px;
+  }
+
+  .edinText {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+
+  .edinAfterText {
+    margin-bottom: 10px;
+  }
+
+  .edinParagraph {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .tpAftPart {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .afterTotalPri {
+    font-size: 8px;
+    width: 57px;
+  }
+
+  .afterUsDol {
+    font-size: 10px;
+  }
+
+  .startPartParent i {
+    font-size: 11px;
+  }
+
+  .addFeedbackBtn button {
+    padding: 4px 24px;
+    font-size: 10px;
+  }
+
+  .myOwnTabs .nav-item .nav-link {
+    font-size: 14px;
+    width: 118px;
+  }
+
+  .myOwnTabs .nav-link.active::after {
+    width: 88px;
+  }
+}
+
+@media (max-width: 399px) {
+  .viewRateBtns {
+    display: block;
+  }
+
+  .rateBtnDiv {
+    margin: 12px 0 0 0;
+  }
+}

@@ -1,0 +1,178 @@
+.sitemapPara {
+    color: #FFF;
+    text-align: center;
+    font-size: 90px;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 33.5px;
+    text-transform: uppercase;
+}
+
+.sitemapPara span {
+    letter-spacing: 0 !important;
+}
+
+.allToursPara {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-family: Open Sans;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.souHead {
+    color: #000;
+    font-size: 25px;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.souhUl {
+    padding: 0;
+}
+
+.souhLi {
+    list-style-type: none;
+    color: #2C2C2C;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    margin-bottom: 30px;
+}
+
+.checkCol {
+    display: flex;
+    justify-content: center;
+}
+
+.checkColRight {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.souhDiv {
+    display: inline-block;
+}
+
+.allTourRow {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1399px){
+    .sitemapPara {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .sitemapPara {
+        font-size: 70px;
+    }
+
+    .allToursPara {
+        font-size: 30px;
+        margin-bottom: 22px;
+    }
+
+    .souHead {
+        font-size: 22px;
+    }
+
+    .souhLi {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .sitemapPara {
+        font-size: 60px;
+        letter-spacing: 25px;
+    }
+
+    .allToursPara {
+        font-size: 22px;
+    }
+
+    .souHead {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .souhLi {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .allTourRow {
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .sitemapPara {
+        font-size: 45px;
+        letter-spacing: 15px;
+    }
+
+    .souHead {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .souhLi {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .allToursPara {
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+
+    .allTourRow {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .allToursPara {
+        font-size: 17px;
+    }
+
+    .souHead {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+
+    .souhLi {
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 479px){
+    .sitemapPara {
+        font-size: 35px;
+        letter-spacing: 8px;
+    }
+
+    .souHead {
+        font-size: 11px;
+    }
+
+    .souhLi {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .allToursPara {
+        font-size: 14px;
+    }
+}

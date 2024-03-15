@@ -1,0 +1,327 @@
+.paymentPart {
+    padding-left: 31px;
+    border-right: 1px solid #8A8686;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+}
+
+.paySmall {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+}
+
+.paySmall figure {
+    width: 14px;
+    height: 19px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+
+.paySmall figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.paySmall span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    color: #00B19F;
+    padding-top: 3px;
+}
+
+.debPay {
+    max-width: 440px;
+}
+
+.debPay .form-group {
+    padding-left: 14px;
+}
+
+.debPayLab {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.expCvvPart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.debPay .form-group .debPayInp {
+    border: 1px solid #00000067;
+    border-radius: 10px;
+}
+
+.debPayP {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 129%;
+    color: #000000;
+    padding-left: 14px;
+    margin-bottom: 0;
+}
+
+.debPayP span {
+    color: #001AFF;
+}
+
+.debPayBtn {
+    text-align: right;
+    margin-top: 12px;
+}
+
+.debPayBtn button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    background: #00B19F;
+    border-radius: 10px;
+    padding: 9px 24px;
+    border: 1px solid #00B19F;
+}
+
+.debPayFormPart {
+    background: #FFFFFF;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    max-width: 500px;
+    max-height: 566px;
+    padding: 1px 0;
+    margin-top: 20px;
+}
+
+.debHead {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000000;
+}
+
+#saveYP {
+    display: none;
+}
+
+#saveYP+label:before {
+    content: "\2714";
+    border: 0.1em solid #000;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    padding-left: 0.15em;
+    margin-right: 10px;
+    vertical-align: center;
+    color: transparent;
+    transition: .2s;
+}
+
+#saveYP:checked+label:before {
+    background-color: #00B19F;
+    border-color: #00B19F;
+    color: #fff;
+}
+
+.cheLab {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 129%;
+    color: #5F5F5F;
+    display: block;
+    cursor: pointer;
+}
+
+.otherPart {
+    margin-top: 30px;
+}
+
+.othText {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 120%;
+    color: #000000;
+    margin-left: 30px;
+}
+
+.otherPayPicPrnt {
+    width: 100%;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 23px;
+}
+
+.otherPayPicPrnt figure {
+    width: 85px;
+    height: 44px;
+    margin-bottom: 0;
+}
+
+.otherPayPicPrnt figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.expCvvPart {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+    .debPayInp {
+        width: 95%;
+    }
+
+    .debPayInpSpcl {
+        width: 91%;
+    }
+
+    .debPayP {
+        font-size: 13px;
+        padding-right: 10px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .debPayFormPart {
+        max-width: 99%;
+    }
+
+    .debPayFormPart {
+        max-width: 99%;
+    }
+
+    .debPay {
+        max-width: 100%;
+    }
+
+    .debPayInp {
+        width: 97%;
+    }
+
+    .debPayInpSpcl {
+        width: 89%;
+    }
+
+    .paymentPart {
+        border: 0;
+        padding-bottom: 10px;
+    }
+
+    .makePayBodyRow {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .paySmall figure {
+        top: -4px;
+    }
+
+    .debHead {
+        font-size: 25px;
+    }
+
+    .debPayInpSpcl {
+        width: 90%;
+    }
+
+    .debPayLab {
+        font-size: 16px;
+    }
+
+    .othText {
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .debPayInp {
+        width: 94%;
+    }
+
+    .debPayInpSpcl {
+        width: 89%;
+    }
+}
+
+@media (max-width: 480px) {
+    .paySmall span {
+        font-size: 13px;
+    }
+
+    .paySmall figure {
+        width: 11px;
+        height: 16px;
+        top: -6px;
+        left: 0px;
+    }
+
+    .debHead {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .debPayInpSpcl {
+        width: 94%;
+    }
+
+    .debPayLab {
+        font-size: 13px;
+    }
+
+    .cheLab {
+        font-size: 12px;
+    }
+
+    .debPayP {
+        font-size: 11px;
+    }
+
+    #saveYP+label:before {
+        width: 16px;
+        height: 16px;
+    }
+
+    .othText {
+        font-size: 20px;
+    }
+
+    .otherPayPicPrnt figure {
+        width: 80px;
+        height: 40px;
+    }
+
+    .expCvvPart {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .debPayBtn button {
+        font-size: 14px;
+        padding: 8px 24px;
+    }
+}

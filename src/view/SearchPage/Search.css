@@ -1,0 +1,565 @@
+.topActHead {
+    font-size: 35px !important;
+    color: #1a2b49 !important;
+    font-weight: bold !important;
+    margin: 0 0 15px 0 !important;
+}
+
+.topCardActFig {
+    width: 100%;
+    max-height: 200px;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.topCardActFig img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+.topActCard {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.diwaTextSpan {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+.diwaDiv {
+    background-color: #1a2b49;
+    padding: 2px 10px;
+    display: inline-block;
+    border-radius: 5px 5px 5px 0;
+    position: absolute;
+    top: 12px;
+    left: 13px;
+}
+
+.threeActSpan {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 800;
+}
+
+.threeActDiv {
+    padding: 4px 8px;
+    background-color: #FFFFFF;
+    border-radius: 0 0 5px 5px;
+    position: absolute;
+    top: 46px;
+    left: 13px;
+}
+
+.topCardActFig img:hover {
+    transform: scale(1.3);
+}
+
+.myTopSightSwi {
+    position: static;
+}
+
+.myTopSightSwi .swiper-button-next:after {
+    font-size: 18px;
+    background-color: #FFFFFF;
+    padding: 10px 14px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 1px lightgray;
+    position: absolute;
+    right: -22px;
+    color: #0071eb;
+    font-weight: bolder;
+}
+
+.myTopSightSwi .swiper-button-prev:after {
+    font-size: 18px;
+    background-color: #FFFFFF;
+    padding: 10px 14px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 1px lightgray;
+    position: absolute;
+    left: -22px;
+    color: #0071eb;
+    font-weight: bolder;
+}
+
+.topSightSwipeDiv {
+    position: relative;
+}
+
+.bannerThingsDiv .Banner-things {
+    padding: 0;
+}
+
+.bannerThingsDiv .bannerThingsFilter {
+    padding: 0;
+}
+
+.bannerThingsDiv .container-fluid {
+    padding: 0;
+}
+
+.bannerThingsDiv .Activities {
+    padding: 0;
+}
+
+.searchPageActivity .paris h4 {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: normal;
+    color: #1a2b49;
+    cursor: pointer;
+}
+
+.searchPageActivity .paris h4:hover {
+    color: #0071eb;
+}
+
+.searchPageActivity .paris-tour img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.searchPageSeDiv {
+    width: 100%;
+    opacity: 0.7;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.searchActivePageSeDiv {
+    opacity: 1;
+}
+
+.searchActivePageSeDiv .searchActive {
+    border-bottom: 8px solid #0071eb;
+    padding-bottom: 6px;
+    border-radius: 5px;
+}
+
+.searchPFgi {
+    max-width: 100%;
+    width: 100%;
+    height: 185px;
+    overflow: hidden;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.searchPFgi img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+.searchPFgi img:hover {
+    transform: scale(1.2);
+}
+
+.underSearch {
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1a2b49;
+    line-height: normal;
+    margin: 10px 0 0 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 30px;
+}
+
+.mainSearchDiv {
+    position: relative;
+}
+
+.mySearchSwiper {
+    position: static;
+}
+
+.mySearchSwiper .swiper-button-next:after {
+    font-size: 14px;
+    background: #FFFFFF;
+    padding: 10px 12px;
+    border-radius: 50%;
+    font-weight: bold;
+    position: absolute;
+    box-shadow: 0 0 5px 0 lightgray;
+    right: -20px;
+}
+
+.mySearchSwiper .swiper-button-prev:after {
+    font-size: 14px;
+    background: #FFFFFF;
+    padding: 10px 12px;
+    border-radius: 50%;
+    font-weight: bold;
+    position: absolute;
+    box-shadow: 0 0 5px 0 lightgray;
+    left: -22px;
+}
+
+.showMDivBtn {
+    text-align: right;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.showMoreBtn {
+    font-size: 16px;
+    padding: 7px 17px;
+    border-radius: 21px;
+    background-color: #FFFFFF;
+    color: #0071eb;
+    border: 2px solid #0071eb;
+    font-weight: 700;
+}
+
+.showMoreBtn:hover {
+    color: #304c84;
+    border-color: #304c84;
+}
+
+.whatFreHead {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a2b49;
+    margin: 0 0 12px 0;
+}
+
+.theSubFreHead {
+    font-size: 17px;
+    color: #1a2b49;
+    margin: 0 0 3px 0;
+    font-weight: 700;
+}
+
+.freQsLiAn {
+    color: #0071eb;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.freQsLiAn:hover {
+    color: #0071eb;
+    text-decoration: none;
+}
+
+.freQsUL {
+    padding: 0;
+    margin: 0;
+}
+
+.freQsLI {
+    list-style-position: inside;
+}
+
+.topActDIvs {
+    margin-bottom: 25px;
+}
+
+.wantPara {
+    font-size: 18px;
+    margin: 0;
+    color: #1a2b49;
+    font-weight: bold;
+}
+
+.wantPara a {
+    color: #0071eb;
+    text-decoration: none;
+}
+
+.wantPara a:hover {
+    color: #0071eb;
+    text-decoration: none;
+}
+
+.thingsSmallHead {
+    font-size: 20px;
+    color: #1a2b49;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cityNameHead {
+    font-size: 80px;
+    color: #1a2b49;
+    font-weight: bold;
+    margin: 0;
+}
+
+.dateSearchInp {
+    font-size: 22px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.searchDateDiv {
+    text-align: right;
+}
+
+.myDatePickerDiv {
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid #75707085;
+    width: 300px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.myDatePickerDiv input {
+    width: 100%;
+    max-width: 322px;
+    height: 46px;
+    border: none;
+    outline: 0;
+    font-size: 20px;
+    color: #434343;
+    padding: 5px 10px 5px 45px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    background: transparent;
+    cursor: pointer;
+    left: 15px;
+}
+
+.myDatePickerDiv .react-datepicker-wrapper {
+    width: 260px;
+    height: 40px;
+    background: transparent;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.paginationDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pageText {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #304c84;
+}
+
+.pagiBtns {
+    font-size: 20px;
+    width: 85px;
+    background-color: transparent;
+    border: 2px solid #928c8c8f;
+    padding: 7px 0;
+    border-radius: 25px;
+    color: #928c8c8f;
+}
+
+.pagiActiveBtn {
+    color: #0071eb;
+    border-color: #0071eb;
+}
+
+.pagiActiveBtn:hover {
+    color: #304c84;
+    border-color: #304c84;
+}
+
+.footListContain {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 70px;
+}
+
+.footListHead {
+    font-size: 20px;
+    font-weight: 800;
+    color: #1a2b49;
+    margin: 0 0 10px 0;
+}
+
+.footMainList {
+    padding: 0;
+    margin: 0;
+}
+
+.footListLi {
+    list-style-type: none;
+    margin-bottom: 2px;
+}
+
+.footListLi a {
+    font-size: 15px;
+    font-weight: 600;
+    color: #0071eb;
+    text-decoration: none;
+}
+
+.footListLi a:hover {
+    color: #304c84;
+    text-decoration: none;
+}
+
+.newWhatPepCol {
+    padding-left: 15px;
+}
+
+.newwhatPepCol2 {
+    padding: 0px 31px 0 18px;
+}
+
+.mainSearchTextRateDiv {
+    padding: 0;
+}
+
+.marbRes {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 991px) {
+    .topActHead {
+        font-size: 32px !important;
+        margin: 0 0 10px 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .paginationDiv {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .searchPageActivity .paris-tour .read {
+        margin-left: 15px;
+        margin-bottom: 0;
+    }
+
+    .searchPageActivity .paris p {
+        margin-bottom: 5px;
+    }
+
+    .topActHead {
+        font-size: 27px !important;
+    }
+
+    .cityNameHead {
+        font-size: 60px;
+    }
+
+    .footListContain {
+        display: block;
+    }
+}
+
+@media (max-width: 575px) {
+    .topActHead {
+        font-size: 22px !important;
+    }
+
+    .cityNameHead {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 479px) {
+    .topActHead {
+        font-size: 20px !important;
+    }
+
+    .cityNameHead {
+        font-size: 40px;
+    }
+
+    .thingsSmallHead {
+        font-size: 16px;
+    }
+
+    .pageText {
+        font-size: 15px;
+    }
+
+    .pagiBtns {
+        font-size: 12px;
+        width: 60px;
+        padding: 5px 0;
+    }
+}
+
+/* Search site search div */
+.whereSearchFrm {
+    width: 100%;
+    margin-right: 10px;
+    height: 53px;
+}
+
+.whreSaeFrmDiv {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.whreSaeFrmDiv input {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid #a89f9f73;
+    padding-left: 45px;
+}
+
+.whreSaeFrmDiv i {
+    font-size: 18px;
+    color: #817d7d8e;
+    position: absolute;
+    top: 17px;
+    left: 16px;
+}
+
+.whreSaeFrmDiv button {
+    background-color: #f95d12;
+    color: #fff;
+    border: 0;
+    padding: 6px 12px;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 16px;
+    position: absolute;
+    top: 7px;
+    right: 6px;
+}
+
+@media (max-width: 767px) {
+    .searchbox {
+        display: block;
+    }
+
+    .whereSearchFrm {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 359px) {
+    .whreSaeFrmDiv button {
+        font-size: 14px;
+        top: 11px;
+    }
+}

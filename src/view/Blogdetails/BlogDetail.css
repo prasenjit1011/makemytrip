@@ -1,0 +1,422 @@
+.bDetailHeadDiv {
+    margin-top: 80px;
+    padding: 0 70px;
+}
+
+.marBtnDiv {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.markBtn {
+    background-color: #1a2b49;
+    color: #fff;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+.markBtn:hover {
+    background-color: #007aff;
+}
+
+.bDetDate {
+    margin: 0;
+    color: #1a2b49;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.bDateDiv {
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 1px solid #1a2b49;
+}
+
+.makeMemP {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1a2b49;
+    margin: 0;
+    line-height: 65px;
+}
+
+.makeMemPDiv {
+    margin-bottom: 30px;
+}
+
+.bLadyFig {
+    width: 75px;
+    height: 75px;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.bLadyFig img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.bLadyFigDiv {
+    border: 3px solid #f53;
+    padding: 2px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bLadyName {
+    font-size: 15px;
+    color: #1a2b49;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.bLadyMainDiv {
+    display: flex;
+    align-items: center;
+}
+
+.bLadyNameDiv {
+    margin-left: 12px;
+}
+
+.bDetailBanner {
+    width: 100%;
+    height: 650px;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.bDetailBanner img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.bDetailDivBanner {
+    margin: 40px 0;
+}
+
+.bDetailPara {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1a2b49;
+}
+
+.bDetailFirstPara {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1a2b49;
+    font-style: italic;
+}
+
+.bDetailParaAn {
+    font-weight: bold;
+    color: #007aff;
+}
+
+.bDetailParaAn:hover {
+    color: #1a2b49;
+    text-decoration: none;
+}
+
+.findParaDiv {
+    margin-top: 10px;
+}
+
+.findingHead {
+    font-size: 30px;
+    color: #1a2b49;
+    font-weight: bolder;
+    margin: 0 0 10px 0;
+}
+
+.findInnerDiv {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #79757562;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.leftDouCoat {
+    font-size: 45px;
+    color: #f53;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.rightDouCoat {
+    font-size: 45px;
+    color: #f53;
+    text-align: right;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.assemDiv {
+    margin-top: 20px;
+}
+
+.assembleUL {
+    padding: 0 0 0 13px;
+}
+
+.assembleUL li {
+    list-style-type: none;
+    margin-bottom: 7px;
+    color: #1a2b49;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.assembleUL li::before {
+    content: "\2022";
+    color: #f53;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 5px;
+}
+
+.thingVideoDiv {
+    width: 55%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.thingVideoDiv iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.happenNextDiv {
+    margin-top: 40px;
+}
+
+.svgJoinDiv {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #79757562;
+    border-radius: 8px;
+}
+
+.joinHead {
+    font-size: 22px;
+    margin: 0 0 8px 0;
+    color: #1a2b49;
+    font-weight: bolder;
+}
+
+.ourPara {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1a2b49;
+    width: 300px;
+    margin: 0 0 10px 0;
+}
+
+.openRoleDiv {
+    background-color: #007aff;
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 25px;
+}
+
+.openRoleBtn {
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.openRoleBtn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.blogDetailSection {
+    margin-bottom: 60px;
+}
+
+@media (max-width: 1199px) {
+    .makeMemP {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .bDetailBanner {
+        height: 525px;
+    }
+
+    .thingVideoDiv {
+        width: 65%;
+    }
+}
+
+@media (max-width: 991px) {
+    .bDetailHeadDiv {
+        margin-top: 50px;
+        padding: 0 50px;
+    }
+
+    .makeMemP {
+        font-size: 32px;
+        line-height: 50px;
+    }
+
+    .bLadyFig {
+        width: 65px;
+        height: 65px;
+    }
+
+    .makeMemPDiv {
+        margin-bottom: 20px;
+    }
+
+    .bDetailDivBanner {
+        margin: 30px 0;
+    }
+
+    .bDetailBanner {
+        height: 400px;
+    }
+
+    .thingVideoDiv {
+        width: 100%;
+    }
+
+    .svgJoinDiv {
+        width: 80%;
+    }
+
+    .findInnerDiv {
+        width: 100%;
+        padding: 15px 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .bDetailHeadDiv {
+        margin-top: 30px;
+        padding: 0;
+    }
+
+    .makeMemP {
+        font-size: 26px;
+        line-height: 42px;
+    }
+
+    .marBtnDiv {
+        margin-bottom: 20px;
+    }
+
+    .bLadyFig {
+        width: 60px;
+        height: 60px;
+    }
+
+    .bDetailDivBanner {
+        margin: 20px 0 25px 0;
+    }
+
+    .bDetailBanner {
+        height: 290px;
+    }
+
+    .bLadyFig {
+        width: 55px;
+        height: 55px;
+    }
+
+    .findingHead {
+        font-size: 26px;
+    }
+
+    .bDetailPara {
+        font-size: 15px;
+    }
+
+    .assembleUL li {
+        font-size: 15px;
+    }
+
+    .svgJoinDiv {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .makeMemP {
+        font-size: 22px;
+        line-height: 37px;
+    }
+
+    .bDetailBanner {
+        height: 260px;
+    }
+
+    .ourPara {
+        font-size: 14px;
+        width: auto;
+        margin: 0 0 10px 0;
+    }
+
+    .openRoleDiv {
+        padding: 10px 17px;
+    }
+
+    .openRoleBtn {
+        font-size: 14px;
+    }
+
+    .thingVideoDiv {
+        height: 280px;
+    }
+
+    .svgJoinDiv {
+        padding: 18px;
+    }
+}
+
+@media (max-width: 479px) {
+    .makeMemP {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .makeMemPDiv {
+        margin-bottom: 15px;
+    }
+
+    .bLadyFig {
+        width: 47px;
+        height: 47px;
+    }
+
+    .bLadyName {
+        font-size: 14px;
+    }
+
+    .bDetailBanner {
+        height: 200px;
+    }
+
+    .findingHead {
+        font-size: 20px;
+    }
+
+    .thingVideoDiv {
+        height: 210px;
+    }
+}

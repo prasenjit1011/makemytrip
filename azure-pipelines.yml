@@ -1,0 +1,42 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+  - liveNew2
+
+pr:
+  - liveNew2
+
+jobs:
+  - job: BuildReactJsApplicationAndPushAsDockerImages
+    displayName: "Build ReactJs Application And Push As Docker Image"
+    pool:
+      name: "Default"
+    steps:
+      - script: |
+          sudo docker login -u webhibe -p 'SA#$qh~GnF5K+7N' https://index.docker.io/v1/
+
+      - script: |
+          npm install
+          npm run build
+          sudo docker build . -t webhibe/things-to-do-front
+          sudo docker push webhibe/things-to-do-front
+
+  - job: Deploy
+    displayName: "Deploy to AWS EC2"
+    pool:
+      name: "Default"
+    steps:
+      - task: SSH@0
+        inputs:
+          sshEndpoint: "AWS-SSH-Endpoint"
+          runOptions: "inline"
+          inline: |
+            if [[ $(sudo docker ps -q -f name=things-to-do-front) ]]; then
+              sudo docker stop things-to-do-front
+              sudo docker rm things-to-do-front
+            fi
+            sudo docker pull webhibe/things-to-do-front
+            sudo docker run -p 2039:2039 -d --name things-to-do-front webhibe/things-to-do-front

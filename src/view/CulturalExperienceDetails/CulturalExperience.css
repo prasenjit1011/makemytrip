@@ -1,0 +1,2957 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: 'Poppins', sans-serif;
+  max-width: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.formParisColHeadingPart {
+  padding: 30px 100px 20px 100px;
+}
+
+.starRatingDetails {
+  color: #fbbc04;
+  font-size: 18px;
+}
+
+.parisHead1 {
+  font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 112%;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.parisHead2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 111%;
+  color: #000000;
+}
+
+.smallFPart {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #000000;
+  margin-bottom: 3px;
+}
+
+.dayTripHead {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #737373;
+  margin-bottom: 8px;
+}
+
+.enjoyConvey1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #515151;
+  margin-bottom: 0;
+}
+
+.enjoyConvey2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 160%;
+  color: #515151;
+}
+
+.activityHeadPart {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.activityHeadPartAn {
+  text-decoration: underline;
+}
+
+.activityHeadPartAn:hover {
+  color: #007bff;
+}
+
+.numberReviewPart {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.ratingParentPart {
+  display: flex;
+  align-items: center;
+}
+
+.aboutActivityPartRow1 {
+  margin-bottom: 19px;
+}
+
+.aboutActP {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.liHeadingPart {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.liSmallPart {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #565656;
+  margin-bottom: 0;
+}
+
+.formInnerPart {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 20px 0px; */
+}
+
+.aboutActivityParentCol {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.formTextPart {
+  width: 55%;
+  padding-right: 20px;
+}
+
+.formTextPart li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.aboutActivityPart {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  height: auto;
+  /* background: rgb(0 247 247 / 28%); */
+  background-color: #cccaca;
+    border-radius: 25px;
+}
+
+.formMainPart {
+  background-color: #1a2b49;
+  width: auto;
+  height: auto;
+  border-radius: 8.85965px;
+  box-shadow: 0px 1.77193px 13.2895px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 20px 20px 10px 20px;
+  margin-bottom: 20px;
+}
+
+.formMainPart>p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.slotSecMainDiv {
+  background: aliceblue;
+    border-radius: 8px;
+}
+
+.checkBoxSingle {
+  accent-color: #00b19f;
+  margin-right: 10px;
+}
+
+.checkBoxWrapper {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkBoxWrapper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border: 1px solid black;
+}
+
+/* On mouse-over, add a grey background color */
+.checkBoxWrapper:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkBoxWrapper input:checked~.checkmark {
+  background-color: #00b19f;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkBoxWrapper input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkBoxWrapper .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#firstSelectBox {
+  width: 402.63px;
+  height: 62.02px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 0.393516px solid #000000;
+  border-radius: 7.87032px;
+  padding-left: 40px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.9474px;
+  line-height: 120%;
+  color: #575656;
+  z-index: 1;
+}
+
+#secondSelectBox {
+  width: 222.63px;
+  height: 40.02px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 0.393516px solid #000000;
+  border-radius: 7.87032px;
+  padding-left: 40px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15.9474px;
+  line-height: 120%;
+  color: #575656;
+}
+
+/* .firstSelectBoxParent {
+  margin-bottom: 24px;
+  position: relative;
+} */
+.firstSelectBoxParent {
+  display: flex;
+  justify-content: space-around;
+  margin: 8px 0px;
+}
+
+.firstSelectBoxParent .modal_own {
+  width: 32%;
+  position: relative;
+  z-index: 99;
+}
+
+.firstSelectBoxParent .modal_own .dropdown {
+  width: 100%;
+  height: 40px;
+}
+
+.firstSelectBoxParent .modal_own .dropdown .selectPartBtn {
+  width: 100%;
+  border-radius: 20px !important;
+  font-size: 14px;
+  height: 100%;
+}
+
+/* 
+.firstSelectBoxParent i {
+  font-size: 15.9474px;
+  color: #575656;
+  top: 23px;
+  left: 16px;
+} */
+
+.secondSelectBoxParent {
+  width: 32%;
+  position: relative;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.calSecIcon {
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  transform: translate(0, -50%);
+}
+
+.secondSelectBoxParent .rmdp-container {
+  width: 100%;
+}
+
+.secondSelectBoxParent input {
+  color: #1a2b49;
+  font-weight: 600;
+  box-shadow: 0px 3px 10px 0px rgb(0, 0, 0, 0.5);
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+  padding: 2px 0 0 15px;
+  font-size: 14px;
+  line-height: normal;
+  position: relative;
+  z-index: 99;
+  background: transparent;
+  cursor: pointer;
+}
+
+.secondSelectBoxParent input::placeholder {
+  font-size: 14px;
+}
+
+.act_btn_add_mns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 1px solid; */
+  border-radius: 4px;
+  padding: 10px 0px;
+  /* margin-top: 6px; */
+  background-color: rgb(249 249 249);
+}
+
+.drpdwn_icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+
+.mulUserIcon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translate(0, -50%);
+  font-size: 13px;
+}
+
+h5.actn_txt {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1a2b49;
+  width: 40%;
+}
+
+.minus_button {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+  /* border: 1px solid #000; */
+  justify-content: center;
+  align-items: center;
+  background-color: #1a2b49;
+  color: white;
+}
+
+.numperson {
+  border: 1px solid rgb(199, 189, 189);
+  border-radius: 5px;
+}
+
+.actn_own {
+  /* display: flex;
+  justify-content: space-between;
+  padding: 7px; */
+  min-width: 200px;
+  box-shadow: 0px 2px 6px 1px rgb(0, 0, 0, 0.5);
+  border-radius: 15px;
+  position: relative;
+  z-index: 50;
+  top: 2px;
+}
+
+/* .secondSelectBoxParent i {
+  font-size: 15.9474px;
+  color: #575656;
+  position: absolute;
+  top: 23px;
+  left: 16px;
+} */
+
+.selectPartBtn {
+  background-color: #fff;
+  color: #1a2b49;
+  font-weight: 600;
+}
+
+.selectPartBtn:hover,
+.selectPartBtn:focus {
+  color: #1a2b49;
+}
+
+.buttonSelectPart {
+  width: 402.63px;
+  height: 62.02px;
+  margin-top: 14px;
+}
+
+.buttonSelectPart button {
+  width: 100%;
+  height: 60%;
+  background: #009788;
+  border-radius: 7.87032px;
+  border: 1px solid #009788;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+  display: table;
+  margin: 0 auto;
+}
+
+.reserveText {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #1c74e9;
+  width: 402.63px;
+  margin: 35px 0 0 0;
+}
+
+.reserveText i {
+  color: #000456;
+  margin-right: 8px;
+}
+
+.slotsection {
+  border: none !important;
+  border-radius: 8.85965px;
+  box-shadow: 0px 1px 5px 0px rgb(0, 0, 0, 0.5);
+  padding: 10px 0;
+}
+
+.slotsection>div {
+  padding: 0 10px;
+}
+
+.giftText {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 120%;
+  color: #1c74e9;
+  margin: 0;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.giftText i {
+  color: #0a5cca;
+}
+
+.experienceMapPart {
+  padding-top: 25px;
+}
+
+.experienceMapPartCol1 {
+  padding-left: 100px;
+  padding-right: 31px;
+}
+
+.experienceMapPartCol2 {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.experienceMainHead {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.experienceUlPartHead {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.experienceUlPart li {
+  list-style-type: none;
+  /* font-family: 'Josefin Sans'; */
+  /* font-style: normal; */
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  /* color: #414040; */
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 25px;
+  /* margin-bottom: 15px; */
+
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  
+  /* font-size: 20px; */
+  color: #717171;
+  list-style-position: inside;
+  margin-bottom: 10px;
+}
+
+.experienceUlPart li::before {
+  content: '◆';
+  color: #00534b;
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  transform: translate(0, -50%);
+  width: 40px;
+  height: 20px;
+}
+
+.mapInnerPart iframe {
+  width: 605px;
+  height: 315px;
+  filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.15));
+  border-radius: 20px;
+}
+
+.expTextHead {
+  padding-left: 85px;
+  padding-right: 31px;
+}
+
+.expUlPart {
+  padding-left: 85px;
+  padding-right: 31px;
+}
+
+.highlightHead {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+
+.highlightUl li {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #717171;
+  list-style-position: inside;
+  margin-bottom: 10px;
+}
+
+.fullDescHead {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.fullDescUl li {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 220%;
+  color: #717171;
+  list-style-position: inside;
+}
+
+.includesHead {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.includesUi li {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 220%;
+  color: #717171;
+  list-style-position: inside;
+}
+
+.meetingHead {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+
+.meetingUi li {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #717171;
+  list-style-position: inside;
+}
+
+.importantHead {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.importantUi li {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 111%;
+  color: #717171;
+  list-style-position: inside;
+}
+
+.sameMarginPart {
+  margin-top: 30px;
+}
+
+.gmapLink {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.gmapLink a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 220%;
+  color: #0038ff;
+}
+
+.gmapLink a:hover {
+  text-decoration: none;
+}
+
+.mightHeadingPart {
+  padding-left: 100px;
+  padding-right: 31px;
+}
+
+.mightHeadingPart p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.mightCartSection {
+  padding: 22px 31px 0 31px;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.cardParent {
+  position: relative;
+  border-radius: 10px;
+  margin: 10px;
+  min-width: 100%;
+  height: 350px;
+}
+
+.cardHeart {
+  position: absolute;
+  z-index: 2;
+  right: 8px;
+  top: 11px;
+  color: #000000;
+  font-size: 25px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.cardOverlayPart {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  padding: 20px 20px 0 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.entryTic {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  color: #dedede;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 40px;
+}
+
+.fromSmallPart {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.smallGardenPart {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.ideaTimePArt {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #f3f3f3;
+  margin-bottom: 15px;
+}
+
+.smallRevPart {
+  display: flex;
+  align-items: center;
+}
+
+.reviewPart i {
+  color: #fbbc04;
+  font-size: 14px;
+}
+
+.smallWordRev:not(.smallWordRevSpan) {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-bottom: 0;
+  margin-left: 13px;
+}
+
+.smallWordRevSpan {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.smallPrice {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+.customerReviewSection {
+  padding-top: 15px;
+}
+
+.custRevHead {
+  padding-left: 100px;
+  padding-right: 31px;
+  display: flex;
+}
+
+.custRevHead p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.mainInnerRatingPart {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+}
+
+.reviewFirstPart {
+  margin-right: 82px;
+  width: 618px;
+}
+
+.reviewSmallHeads {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.custReview {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #000000;
+  text-align: center;
+  width: 95px;
+  margin-bottom: 0;
+}
+
+.custReviewSpan {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #9f9f9f;
+}
+
+.custStarRev {
+  margin-bottom: 10px;
+  margin-left: 45px;
+}
+
+.custStarRev i {
+  color: #fbbc04;
+  font-size: 17px;
+  margin-right: 15px;
+}
+
+.custStarRev i:last-of-type {
+  margin-right: 0;
+}
+
+.basedRevPart {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  color: #5e5454;
+  padding-left: 62px;
+}
+
+.reviewProgressBarPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.myProgress {
+  width: 65%;
+}
+
+.revSumText {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #565656;
+  margin-bottom: 0;
+  width: 25%;
+  /* border: 2px solid blue; */
+}
+
+.revRightRate {
+  text-align: right;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #565656;
+  margin-bottom: 0;
+  width: 10%;
+  /* border: 2px solid red; */
+}
+
+.progressBarPart {
+  width: 100%;
+  height: 100%;
+  background-color: #ffd938;
+  border-radius: 35px;
+}
+
+.travelPrevHead {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.travelPrevHead>div {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.travSOrt {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.75px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.travBtn {
+  margin-bottom: 0;
+}
+
+.travBtn button {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.6136px;
+  line-height: 120%;
+  color: #494949;
+  border: 0.504545px solid #494949;
+  border-radius: 2.52273px;
+  padding: 5.04545px;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.travSearch {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.travSearch input {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  outline: 0;
+  border: 0;
+  border-bottom: 0.651229px solid #000000c0;
+  box-sizing: border-box;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.searchGlass {
+  position: absolute;
+  left: 10px;
+  top: 4px;
+  background: transparent;
+  z-index: 2;
+  color: #7c7c7c;
+}
+
+.trvaelTypeHead {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.trvaelTypeHeadPart1 {
+  width: 75px;
+  display: flex;
+  align-items: center;
+}
+
+.travRah {
+  font-weight: 700;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.trvaelTypeHeadPart1 p {
+  margin-bottom: 0;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.trvaelTypeHeadPart1 i {
+  font-size: 19px;
+  color: #fbbc04;
+}
+
+.trvaelTypeHeadPart2 p {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.travelCheckboxReview {
+  margin-right: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 72%;
+}
+
+.travelCheckboxReview>div {
+  width: 210px;
+}
+
+.travelCheckboxReview label {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.trvaelTypeReview {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.travelTextReview {
+  border-bottom: 0.5px solid #6c6c6c;
+  width: 100%;
+}
+
+.travelReveiewPara {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+  color: #464343;
+}
+
+.logoP_Parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.logoPpart {
+  display: flex;
+  align-items: center;
+}
+
+.pHeading {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 120%;
+  color: #ffffff;
+  background-color: #ff7a00;
+  padding: 10px 18px;
+  border-radius: 40px;
+  margin-right: 10px;
+}
+
+.getThingPart {
+  margin-bottom: 5px;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.verBook {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 120%;
+  color: #717171;
+}
+
+.helpPart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.helpFulText {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 120%;
+  color: #6a6a6a;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.yesText {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 120%;
+  color: #0057ff;
+  cursor: pointer;
+}
+
+.starRatHead {
+  padding-left: 100px;
+  padding-right: 31px;
+}
+
+.starRatHead p {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.seeAllReview {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 80px;
+}
+
+.seeAllReviewBtn {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 120%;
+  color: #000000;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 40px;
+}
+
+.colorCheckBoxSty+label {
+  display: block;
+  cursor: pointer;
+}
+
+.colorCheckBoxSty {
+  display: none;
+}
+
+.colorCheckBoxSty+label:before {
+  content: '\2714';
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding-left: 0.15em;
+  margin-right: 10px;
+  vertical-align: center;
+  color: transparent;
+  transition: 0.2s;
+}
+
+.colorCheckBoxSty:checked+label:before {
+  background-color: #00b19f;
+  border-color: #00b19f;
+  color: #fff;
+}
+
+.imageFrameParent {
+  justify-content: center;
+}
+
+.imageFrameSubParent {
+  display: flex;
+  align-items: flex-end;
+}
+
+.imageFrameSubParent figure {
+  margin-bottom: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.imageFrameSubParent figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.imageFrameContainerPart {
+  position: relative;
+}
+
+.overImg {
+  position: absolute;
+  z-index: 2;
+  top: 116px;
+  left: 38%;
+  height: 455px;
+  width: 367px;
+  border: 20px solid #fff;
+  border-radius: 1rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.overImg img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.detailFrame2Parent {
+  position: relative;
+}
+
+.detailFrame2Parent i {
+  color: #000000;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 2;
+  right: 26px;
+  top: 22px;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.viewImagesPart {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  color: #ffffff;
+  background-color: #000000;
+  opacity: 0.85;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 28px;
+  right: 24px;
+  padding: 15px;
+}
+
+.viewImagesPart:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.detailFrame4Parent {
+  position: relative;
+}
+
+.cardParent img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+}
+
+.mightCartSection::-webkit-scrollbar-thumb {
+  height: 3px;
+  height: 3px !important;
+  background-color: #979393;
+}
+
+.mightCartSection::-webkit-scrollbar-track {
+  height: 3px;
+}
+
+.mightCartSection::-webkit-scrollbar {
+  height: 3px;
+}
+
+/* Likely Div */
+.likelyDiv {
+  background-color: #fff;
+  min-width: 350px;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px 0 #282525d1;
+  height: 180px;
+}
+
+.likeSubDiv {
+  background-color: #c72a3d;
+  padding: 2px 7px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 15px;
+  height: 2rem;
+  text-align: center;
+}
+
+.likeSmSpan {
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.formSubPara {
+  font-size: 16px;
+  color: #1a2b49;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.priceChkDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 21px;
+}
+
+.rupActIcon {
+  font-size: 16px;
+  color: #1a2b49;
+  margin-right: 5px;
+}
+
+.rupActText {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1a2b49;
+}
+
+.chkAviBtn {
+  background-color: #f95d12;
+  border: 0;
+  padding: 7px 21px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 400ms;
+}
+
+.chkAviBtn:hover {
+  background-color: #304c84;
+}
+
+.chkAviBtnAn {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.chkAviBtnAn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.perSpan {
+  color: #1a2b49;
+  font-weight: 600;
+  font-size: 20px;
+  position: absolute;
+  top: 29px;
+  left: 0;
+}
+
+.impInfoLiPara {
+  /* font-family: 'Josefin Sans';
+    line-height: 20px;
+  padding-left: 25px;
+  font-size: 16px; */
+  
+  list-style-type: none;
+  /* font-family: 'Josefin Sans'; */
+  /* font-style: normal; */
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  /* color: #414040; */
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 25px;
+  /* margin-bottom: 15px; */
+
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  
+  /* font-size: 20px; */
+  color: #717171;
+  list-style-position: inside;
+  margin-bottom: 10px;
+
+}
+
+.reviewSecondPart {
+  width: 100%;
+}
+
+.chseChidHead {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.chseChSpan {
+  color: yellow;
+}
+
+.myFormParent {
+  width: 100%;
+}
+
+.chkSlotBtn {
+  background-color: #fff;
+  color: #000;
+  font-weight: 600;
+  margin: 0;
+  font-size: 14px;
+  border: 0;
+  padding: 0 20px;
+  border-radius: 25px;
+  width: 32%;
+  height: 40px;
+  line-height: normal;
+}
+
+.travelTypePart {
+  margin-bottom: 50px;
+}
+
+.trvaelTypeHeadPart2 {
+  padding-top: 5px;
+}
+
+.addTocrtBtn {
+  background-color: #f95d12;
+  border: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 8px 0;
+  border-radius: 20px;
+  transition-property: all;
+  transition-duration: 300ms;
+  width: 110px;
+}
+
+.addTocrtBtn:hover {
+  background-color: #1a2b49;
+}
+
+.plaOrdr {
+  border: 2px solid #f95d12;
+  color: #f95d12;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 6px 0;
+  border-radius: 20px;
+  margin-left: 10px;
+  transition-property: all;
+  transition-duration: 300ms;
+  width: 110px;
+}
+
+.plaOrdr:hover {
+  border-color: #1a2b49;
+  color: #1a2b49;
+}
+
+.giftSubFigDiv {
+  width: 50%;
+}
+
+.giveMFirstLabel {
+  height: 40px;
+}
+
+.addCustReview {
+  margin-left: 15px;
+  height: 30px;
+  padding: 0 10px;
+  background-color: #1a2b49;
+  color: #fff;
+  font-weight: 500;
+  border: 0;
+  border-radius: 5px;
+  transition-property: all;
+  transition-duration: 600ms;
+}
+
+.addCustReview:hover {
+  background-color: #f95d12c7;
+}
+
+@media screen and (max-width: 1500px) {
+  .overImg {
+    top: 105px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .overImg {
+    top: 86px;
+    left: 37%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .overImg {
+    height: 400px;
+    width: 340px;
+    top: 102px;
+  }
+}
+
+@media (max-width: 1365px) {}
+
+@media screen and (max-width: 1359px) {
+  .cardParent {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .overImg {
+    top: 87px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .overImg {
+    height: 370px;
+    width: 315px;
+  }
+
+  .detailFrame2Parent i {
+    right: 24px;
+    top: 18px;
+    font-size: 20px;
+  }
+
+  .viewImagesPart {
+    font-size: 11px;
+    bottom: 25px;
+    right: 23px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .overImg {
+    top: 75px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .parisHead2 {
+    font-size: 46px;
+  }
+
+  .enjoyConvey2 {
+    font-size: 22px;
+  }
+
+  .activityHeadPart {
+    font-size: 28px;
+  }
+
+  .numberReviewPart {
+    font-size: 28px;
+  }
+
+  .overImg {
+    top: 70px;
+    height: 355px;
+    width: 306px;
+    left: 36.5%;
+  }
+
+  .formMainPart>p {
+    font-size: 19px;
+  }
+
+  .mapInnerPart iframe {
+    width: 610px;
+    height: 310px;
+  }
+
+  .experienceUlPart li {
+    font-size: 17px;
+  }
+
+  .fullDescUl li {
+    font-size: 17px;
+  }
+
+  .includesUi li {
+    font-size: 17px;
+  }
+
+  .gmapLink a {
+    font-size: 17px;
+  }
+
+  .cardParent:last-child {
+    margin-right: 0;
+  }
+
+  .entryTic {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .fromSmallPart {
+    font-size: 11px;
+  }
+
+  .smallGardenPart {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+
+  .ideaTimePArt {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  .reviewPart i {
+    font-size: 9px;
+  }
+
+  .smallWordRev:not(.smallWordRevSpan) {
+    font-size: 10px;
+  }
+
+  .smallPrice {
+    font-size: 12px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+  }
+
+  .smallWordRevSpan {
+    font-size: 10px;
+  }
+
+  .cardHeart {
+    font-size: 15px;
+    padding: 8px;
+  }
+
+  .formInnerPart {
+    padding-bottom: 20px;
+  }
+
+  .custReviewSpan {
+    font-size: 21px;
+  }
+
+  .custStarRev i {
+    font-size: 20px;
+  }
+
+  .basedRevPart {
+    font-size: 15px;
+  }
+
+  .revSumText {
+    font-size: 15px;
+  }
+
+  .expTextHead {
+    width: 400px;
+  }
+
+  .trvaelTypeHeadPart1 p {
+    font-size: 22px;
+  }
+
+  .trvaelTypeHeadPart1 i {
+    font-size: 20px;
+  }
+
+  /* .trvaelTypeHeadPart1 {
+    width: 365px;
+  } */
+
+  .travelCheckboxReview label {
+    font-size: 18px;
+  }
+
+  .travelReveiewPara {
+    font-size: 18px;
+  }
+
+  .pHeading {
+    padding: 7px 17px;
+  }
+
+  .colorCheckBoxSty+label:before {
+    width: 23px;
+    height: 23px;
+  }
+
+  .formParisColHeadingPart {
+    padding: 30px 60px 20px 60px;
+  }
+
+  .aboutActivityParentCol {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .experienceMapPartCol1 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .experienceMapPartCol2 {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .expTextHead {
+    padding-left: 45px;
+  }
+
+  .mightHeadingPart {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .custRevHead {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .trvaelTypeHead {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .trvaelTypeReview {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .starRatHead {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .travelPrevHead {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .buttonSelectPart button {
+    width: 90%;
+  }
+
+  .parisHead1 {
+    margin-bottom: 5px;
+  }
+
+  .smallFPart {
+    margin-bottom: 4px;
+  }
+
+  .dayTripHead {
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+
+  .enjoyConvey1 {
+    font-size: 18px;
+  }
+
+  .activityHeadPart {
+    font-size: 21px;
+  }
+
+  .starRatingDetails {
+    font-size: 18px;
+  }
+
+  .numberReviewPart {
+    font-size: 21px;
+  }
+
+  .formInnerPart {
+    padding: 0;
+  }
+
+  .revRightRate {
+    width: 15%;
+  }
+
+  .revSumText {
+    width: 35%;
+  }
+
+  .myProgress {
+    width: 49%;
+  }
+}
+
+@media screen and (max-width: 1155px) {
+  .dialougeNavbarPart .userGrandParent {
+    width: 110px;
+    height: 50px;
+    font-size: 15px;
+  }
+
+  .dialougeNavbarPart .userGrandParent .userParent {
+    margin: 0 6px 0 0;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .overImg {
+    top: 63px;
+    height: 345px;
+    width: 297px;
+    border: 25px solid #fff;
+  }
+}
+
+@media (max-width: 1145px) {
+  .formInnerPart {
+    flex-direction: column-reverse;
+    margin-bottom: 30px;
+  }
+
+  .formTextPart {
+    width: 100%;
+    padding-right: 0;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .overImg {
+    top: 72px;
+    height: 300px;
+    width: 268px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .overImg {
+    top: 68px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .overImg {
+    top: 52px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .parisHead2 {
+    font-size: 35px;
+  }
+
+  .smallFPart {
+    font-size: 17px;
+  }
+
+  .enjoyConvey2 {
+    font-size: 18px;
+  }
+
+  .imageFrameMainPart {
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+  }
+
+  .imageFrameMainPart img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .formMainPart>p {
+    font-size: 18px;
+  }
+
+  #firstSelectBox {
+    width: 362px;
+    height: 55px;
+  }
+
+  #secondSelectBox {
+    width: 362px;
+    height: 55px;
+  }
+
+  .reserveText {
+    font-size: 15px;
+    margin-top: 16px;
+    margin-bottom: 21px;
+    padding-left: 15px;
+  }
+
+  .firstSelectBoxParent {
+    text-align: center;
+  }
+
+  .secondSelectBoxParent {
+    text-align: center;
+  }
+
+  .buttonSelectPart {
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .firstSelectBoxParent i {
+    top: 21px;
+    left: 35px;
+  }
+
+  .secondSelectBoxParent i {
+    top: 20px;
+    left: 35px;
+  }
+
+  .mapInnerPart iframe {
+    width: 468px;
+    height: 255px;
+  }
+
+  .experienceMapPartCol2 {
+    padding-right: 15px;
+  }
+
+  .experienceUlPart li {
+    font-size: 19px;
+    margin-bottom: 23px;
+  }
+
+  .experienceUlPart li::before {
+    content: '◆';
+    color: #00534b;
+    position: absolute;
+    top: 70%;
+    left: -23px;
+    transform: translate(0, -50%);
+    width: 40px;
+    height: 20px;
+  }
+
+  .cardParent {
+    margin-bottom: 30px;
+  }
+
+  .cardParent:last-child {
+    margin-bottom: 0;
+  }
+
+  .entryTic {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .fromSmallPart {
+    font-size: 15px;
+  }
+
+  .smallGardenPart {
+    font-size: 15px;
+    margin-bottom: 14px;
+  }
+
+  .ideaTimePArt {
+    font-size: 13px;
+    margin-bottom: 13px;
+  }
+
+  .reviewPart i {
+    font-size: 15px;
+  }
+
+  .smallWordRev:not(.smallWordRevSpan) {
+    font-size: 15px;
+  }
+
+  .smallWordRevSpan {
+    font-size: 15px;
+  }
+
+  .smallPrice {
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 17px;
+  }
+
+  .cardHeart {
+    font-size: 19px;
+    padding: 10px;
+  }
+
+  .progressBarPart {
+    width: 190px;
+  }
+
+  .fullDescHead {
+    font-size: 20px;
+  }
+
+  .includesHead {
+    font-size: 20px;
+  }
+
+  .importantHead {
+    font-size: 20px;
+  }
+
+  .fullDescUl li {
+    font-size: 15px;
+  }
+
+  .includesUi li {
+    font-size: 15px;
+  }
+
+  .travelCheckboxReview label {
+    font-size: 13px;
+  }
+
+  .travelReveiewPara {
+    font-size: 13px;
+  }
+
+  .colorCheckBoxSty+label:before {
+    width: 17px;
+    height: 18px;
+  }
+
+  .pHeading {
+    padding: 7px 14px;
+  }
+
+  .helpFulText {
+    font-size: 13px;
+  }
+
+  .yesText {
+    font-size: 13px;
+  }
+
+  .experienceMainHead {
+    font-size: 25px;
+  }
+
+  .parisHead1 {
+    font-size: 20px;
+  }
+
+  .aboutActP {
+    font-family: 'Open Sans';
+  }
+
+  .experienceMainHead {
+    font-size: 21px;
+  }
+
+  .mightHeadingPart p {
+    font-size: 21px;
+  }
+
+  .custRevHead p {
+    font-size: 21px;
+  }
+
+  .imageFrameSubParent figure {
+    height: 270px;
+  }
+
+  .detailFrame2Parent i {
+    right: 40px;
+    top: 12px;
+  }
+
+  .aboutActP {
+    font-size: 21px;
+  }
+
+  .experienceUlPartHead {
+    font-size: 18px;
+  }
+
+  .reviewSmallHeads {
+    font-size: 20px;
+  }
+
+  .formInnerPart {
+    flex-direction: column-reverse;
+    margin-bottom: 30px;
+  }
+
+  .formTextPart {
+    width: 100%;
+    padding-right: 0;
+    margin-top: 25px;
+  }
+
+  .reviewFirstPart {
+    margin-right: 0;
+    width: 535px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .parisHead2 {
+    font-size: 25px;
+  }
+
+  .smallFPart {
+    font-size: 15px;
+  }
+
+  .dayTripHead {
+    font-size: 16px;
+  }
+
+  .enjoyConvey1 {
+    font-size: 15px;
+  }
+
+  .enjoyConvey2 {
+    font-size: 15px;
+  }
+
+  .activityHeadPart {
+    font-size: 20px;
+  }
+
+  .numberReviewPart {
+    font-size: 20px;
+  }
+
+  .starRatingDetails {
+    font-size: 20px;
+  }
+
+  .imageFrameMainPart {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .aboutActivityParentCol {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .experienceMapPartCol1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .mightHeadingPart {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .custRevHead {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .mainInnerRatingPart {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .trvaelTypeHead {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .trvaelTypeReview {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .mightCartSection {
+    padding: 22px 15px 0 15px;
+  }
+
+  .formMainPart {
+    min-width: 100%;
+  }
+
+  .experienceMapPartCol2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .expTextHead {
+    padding-left: 15px;
+    width: 100%;
+  }
+
+  #firstSelectBox {
+    width: 90%;
+  }
+
+  #secondSelectBox {
+    width: 90%;
+  }
+
+  .buttonSelectPart {
+    text-align: center;
+    width: 100%;
+  }
+
+  .reserveText {
+    /* font-size: 20px; */
+    padding-left: 32px;
+    width: 90%;
+  }
+
+  .firstSelectBoxParent i {
+    top: 21px;
+    left: 50px;
+  }
+
+  .secondSelectBoxParent i {
+    top: 21px;
+    left: 50px;
+  }
+
+  .liHeadingPart {
+    text-align: center;
+  }
+
+  .liSmallPart {
+    text-align: center;
+  }
+
+  .mapInnerPart iframe {
+    width: 100%;
+  }
+
+  .experienceUlPart li::before {
+    content: '◆';
+    color: #00534b;
+    position: absolute;
+    top: 44%;
+    left: -23px;
+    transform: translate(0, -50%);
+    width: 40px;
+    height: 20px;
+  }
+
+  .mainInnerRatingPart {
+    flex-direction: column;
+  }
+
+  .reviewFirstPart {
+    width: 100%;
+  }
+
+  .custStarRev {
+    text-align: center;
+  }
+
+  .basedRevPart {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .reviewSmallHeads {
+    margin-bottom: 5px;
+  }
+
+  .reviewProgressBarPartParent {
+    padding-top: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .progressBarPart {
+    width: 25em;
+  }
+
+  /* .trvaelTypeHeadPart1 {
+    width: 315px;
+  } */
+
+  .trvaelTypeReview {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .travelTextReview {
+    margin-bottom: 25px;
+  }
+
+  .formParisColHeadingPart {
+    padding: 30px 30px 20px 30px;
+  }
+
+  .likelyDiv {
+    min-width: 100%;
+  }
+
+  .revRightRate {
+    width: 18%;
+  }
+
+  .revSumText {
+    width: 18%;
+  }
+
+  .myProgress {
+    width: 59%;
+  }
+}
+
+@media (max-width: 767px) {
+  .firstSelectBoxParent .modal_own .dropdown .selectPartBtn {
+    font-size: 12px;
+  }
+
+  .mulUserIcon {
+    left: 14px;
+    font-size: 12px;
+  }
+
+  .inputs input {
+    font-size: 80%;
+  }
+
+  .calSecIcon {
+    left: 15px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .parisHead2 {
+    font-size: 20px;
+  }
+
+  .smallFPart {
+    font-size: 13px;
+  }
+
+  .dayTripHead {
+    font-size: 15px;
+  }
+
+  .enjoyConvey1 {
+    font-size: 13px;
+  }
+
+  .enjoyConvey2 {
+    font-size: 13px;
+  }
+
+  .activityHeadPart {
+    font-size: 18px;
+  }
+
+  .starRatingDetails {
+    font-size: 18px;
+  }
+
+  .numberReviewPart {
+    font-size: 18px;
+  }
+
+  .selectPartBtn {
+    font-size: 13px;
+  }
+
+  .secondSelectBoxParent input {
+    font-size: 13px;
+  }
+
+  /* .reserveText {
+    font-size: 18px;
+    padding-left: 25px;
+  } */
+
+  .firstSelectBoxParent i {
+    left: 41px;
+  }
+
+  .secondSelectBoxParent i {
+    left: 41px;
+  }
+
+  .progressBarPart {
+    width: 15em;
+  }
+
+  /* .trvaelTypeHeadPart1 {
+    width: 280px;
+  } */
+
+  .travSOrt {
+    font-size: 15px;
+  }
+
+  .travBtn button {
+    font-size: 11px;
+  }
+
+  .travSearch input {
+    font-size: 13px;
+    padding-left: 34px;
+  }
+
+  .searchGlass {
+    top: 6px;
+    font-size: 15px;
+  }
+
+  .travelPrevHead>div {
+    width: 460px;
+  }
+
+  .parisHead1 {
+    font-size: 16px;
+  }
+
+  .aboutActP {
+    font-size: 18px;
+  }
+
+  .experienceMainHead {
+    font-size: 18px;
+  }
+
+  .experienceUlPartHead {
+    font-size: 16px;
+  }
+
+  .experienceUlPart li {
+    font-size: 13px;
+  }
+
+  .highlightHead {
+    font-size: 18px;
+  }
+
+  .expUlPart {
+    padding-left: 15px;
+    padding-right: 0;
+  }
+
+  .highlightUl li {
+    font-size: 13px;
+  }
+
+  .meetingHead {
+    font-size: 18px;
+  }
+
+  .meetingUi li {
+    font-size: 13px;
+  }
+
+  .importantHead {
+    font-size: 18px;
+  }
+
+  .importantUi li {
+    font-size: 16px;
+  }
+
+  .impInfoLiPara {
+    padding-left: 15px;
+    font-size: 13px;
+  }
+
+  .mightHeadingPart p {
+    font-size: 18px;
+  }
+
+  .revRightRate {
+    font-size: 17px;
+  }
+
+  .addcart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .addTocrtBtn {
+    margin-bottom: 8px;
+  }
+
+  .plaOrdr {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .firstSelectBoxParent {
+    flex-direction: column;
+  }
+
+  .firstSelectBoxParent .modal_own {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .chkSlotBtn {
+    width: 100%;
+  }
+
+  .prev-btn,
+  .next-btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .prev-btn i,
+  .next-btn i {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .parisHead2 {
+    font-size: 15px;
+  }
+
+  .smallFPart {
+    font-size: 11px;
+  }
+
+  .dayTripHead {
+    font-size: 14px;
+  }
+
+  .enjoyConvey1 {
+    font-size: 10px;
+  }
+
+  .enjoyConvey2 {
+    font-size: 10px;
+  }
+
+  .activityHeadPart {
+    font-size: 15px;
+  }
+
+  .numberReviewPart {
+    font-size: 15px;
+  }
+
+  .starRatingDetails {
+    font-size: 15px;
+  }
+
+  .starParent {
+    margin-right: 10px;
+  }
+
+  .formMainPart>p {
+    font-size: 15px;
+  }
+
+  .firstSelectBoxParent i {
+    left: 35px;
+  }
+
+  .secondSelectBoxParent i {
+    left: 35px;
+  }
+
+  /* .buttonSelectPart button {
+    height: 80%;
+    font-size: 18px;
+  } */
+
+  .reserveText {
+    font-size: 13px;
+    width: 100%;
+    padding: 0px;
+    line-height: normal;
+    margin-top: 30px;
+  }
+
+
+
+  .entryTic {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .fromSmallPart {
+    font-size: 12px;
+  }
+
+  .smallGardenPart {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+
+  .ideaTimePArt {
+    font-size: 10px;
+    margin-bottom: 2px;
+  }
+
+  .reviewPart i {
+    font-size: 9px;
+  }
+
+  .smallWordRev:not(.smallWordRevSpan) {
+    font-size: 11px;
+  }
+
+  .smallWordRevSpan {
+    font-size: 11px;
+  }
+
+  .smallPrice {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 14px;
+  }
+
+  .revSumText {
+    font-size: 10px;
+  }
+
+  .progressBarPart {
+    width: 10em;
+  }
+
+  .trvaelTypeHeadPart1 p {
+    font-size: 14px;
+  }
+
+  .trvaelTypeHeadPart1 i {
+    font-size: 13px;
+  }
+
+  /* .trvaelTypeHeadPart1 {
+    width: 185px;
+  } */
+
+  .reviewSmallHeads {
+    font-size: 14px;
+  }
+
+  .travelReveiewPara {
+    font-size: 11px;
+  }
+
+  .pHeading {
+    font-size: 15px;
+    padding: 3px 8px;
+  }
+
+  .getThingPart {
+    font-size: 9px;
+  }
+
+  .verBook {
+    font-size: 10px;
+  }
+
+  .helpFulText {
+    font-size: 10px;
+  }
+
+  .yesText {
+    font-size: 10px;
+  }
+
+  .travSOrt {
+    font-size: 11px;
+  }
+
+  .travBtn button {
+    font-size: 9px;
+  }
+
+  .travSearch input {
+    font-size: 10px;
+    padding-left: 26px;
+  }
+
+  .searchGlass {
+    top: 9px;
+    font-size: 12px;
+  }
+
+  .formParisColHeadingPart {
+    padding: 30px 20px 20px 20px;
+  }
+
+  .imageFrameMainPart {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .experienceMapPartCol1 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .chkAviBtn {
+    padding: 5px 13px;
+  }
+
+  .chkAviBtnAn {
+    font-size: 12px;
+  }
+
+  .chseChidHead {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .modal_own {
+    margin-bottom: 20px;
+  }
+
+  .secondSelectBoxParent {
+    margin: 0;
+  }
+
+  .selectPartBtn {
+    width: 100% !important;
+    text-align: left;
+  }
+
+  .aboutActivityParentCol {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .experienceMapPartCol2 {
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+  }
+
+  .expTextHead {
+    padding-left: 0;
+  }
+
+  .custRevHead {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .mainInnerRatingPart {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .travelPrevHead {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .trvaelTypeHead {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .trvaelTypeReview {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .starRatHead {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .imageFrameSubParent figure {
+    height: 200px;
+  }
+
+  .firstSelectBoxParent .modal_own {
+    width: 100%;
+  }
+
+  .secondSelectBoxParent {
+    width: 100%;
+  }
+
+  .chkSlotBtn {
+    width: 100%;
+  }
+
+  .modal_own {
+    margin-bottom: 13px;
+  }
+
+  .secondSelectBoxParent input {
+    padding-left: 0;
+  }
+
+  .firstSelectBoxParent .modal_own .dropdown .selectPartBtn {
+    text-align: center;
+  }
+}
+
+@media (max-width: 479px) {
+  .likelyDiv {
+    padding: 20px 12px;
+    height: auto;
+  }
+
+  .addTocrtBtn {
+    font-size: 12px;
+    padding: 5px 0;
+    width: 100px;
+  }
+
+  .plaOrdr {
+    font-size: 12px;
+    padding: 3px 0;
+    width: 100px;
+  }
+}

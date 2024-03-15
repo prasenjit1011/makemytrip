@@ -1,0 +1,166 @@
+.cookiePara {
+    color: #FFF;
+    text-align: center;
+    font-size: 50px;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 16.75px;
+    text-transform: uppercase;
+    width: 1008px;
+}
+
+.privacyHead {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-family: Open Sans;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.privacySection {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.my-nav-pills .nav-link {
+    color: #737373;
+    font-size: 22px;
+    font-family: Josefin Sans;
+    font-weight: 600;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.my-nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #000;
+    font-family: Josefin Sans;
+    font-weight: 600;
+    background-color: #FFF;
+    border-left: 14px solid #009788;
+}
+
+.horActiveText {
+    color: #000;
+    font-size: 18px;
+    font-family: Josefin Sans;
+}
+
+.tabSecCol {
+    padding: 0;
+}
+
+@media screen and (max-width: 1199px){
+    .cookiePara {
+        font-size: 35px;
+        width: 900px;
+    }
+
+    .privacyHead {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+
+    .my-nav-pills .nav-link {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    .horActiveText {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .cookiePara {
+        font-size: 25px;
+        width: 690px;
+        letter-spacing: 12px;
+    }
+
+    .my-nav-pills .nav-link {
+        font-size: 17px;
+        margin-bottom: 12px;
+    }
+
+    .horActiveText {
+        font-size: 15px;
+    }
+
+    .my-nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        border-left: 11px solid #009788;
+    }
+
+    .privacyHead {
+        font-size: 26px;
+    }
+
+    .privacyHead {
+        font-size: 22px;
+        letter-spacing: 0;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .cookiePara {
+        font-size: 18px;
+        width: 495px;
+        letter-spacing: 9px;
+    }
+
+    .my-nav-pills .nav-link {
+        font-size: 12px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .horActiveText {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .my-nav-pills .nav-link.active {
+        border-left: 9px solid #009788;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .cookiePara {
+        font-size: 16px;
+        width: 440px;
+        letter-spacing: 9px;
+    }
+
+    .my-nav-pills .nav-link {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .horActiveText {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .tabSecCol {
+        padding-left: 12px;
+    }
+}
+
+@media screen and (max-width: 479px){
+    .cookiePara {
+        font-size: 15px;
+        width: 280px;
+        letter-spacing: 3px;
+    }
+
+    .privacyHead {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,318 @@
+.wishlistHeading {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 120%;
+}
+
+.wishListHeadDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.wishlistRight {
+  width: 100%;
+  padding: 10px 15px;
+  position: relative;
+}
+
+.titleStyle {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: normal;
+  color: #7c7c7c;
+}
+
+.mainTitle {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.wishlistPara {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 120%;
+  color: #3e3e3e;
+}
+
+.wishTabDiv {
+  margin-top: 20px;
+}
+
+.wishTabDiv .react-tabs__tab {
+  color: #63687a;
+  font-weight: bolder;
+  font-size: 17px;
+  padding: 0 20px 7px 20px;
+  position: static;
+}
+
+.wishTabDiv .react-tabs__tab--selected {
+  background: transparent !important;
+  border: 0 !important;
+  color: #1a2b49 !important;
+  border-radius: 0 !important;
+  border-bottom: 3px solid #f95d12 !important;
+}
+
+.wishTabRow > div {
+  width: 100%;
+}
+
+.wishListCard {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #6e6c6c5d;
+  border-radius: 5px;
+}
+
+.wishListFig {
+  width: 100%;
+  height: 200px;
+  margin: 0 0 10px 0;
+}
+
+.wishListFig img {
+  width: 100%;
+  height: 100%;
+}
+
+.wishCustName {
+  font-size: 15px;
+  color: #1a2b49;
+  font-weight: bolder;
+  line-height: normal;
+  margin: 0 0 3px 0;
+}
+
+.wishActivity {
+  font-size: 16px;
+  color: #63687a;
+  font-weight: 600;
+  margin: 0;
+  line-height: normal;
+}
+
+.wishListAn:hover {
+  text-decoration: none;
+}
+
+.wishEmpFig {
+  width: 300px;
+  height: auto;
+}
+
+.wishEmpFig img {
+  width: 100%;
+  height: 100%;
+}
+
+.yoWishPara {
+  font-size: 25px;
+  color: #1a2b49;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  line-height: normal;
+}
+
+.saveActPara {
+  font-size: 16px;
+  color: #1a2b49;
+  font-weight: 500;
+  margin: 0 0 5px 0;
+  line-height: normal;
+}
+
+.findThinsDiv {
+  background-color: #0071eb;
+  padding: 8px 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 17px;
+  border: 0;
+  border-radius: 24px;
+  transition-property: all;
+  transition-duration: 800ms;
+  display: inline-block;
+}
+
+.findThinsDiv:hover {
+  background-color: #f95d12;
+}
+
+.findThAN {
+  color: #fff;
+  font-weight: bolder;
+}
+
+.findThAN:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.wishEmpFigTeDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.emptyTextDiv {
+  margin-left: 18px;
+  padding-top: 5px;
+}
+
+.cretNewList {
+  background-color: #ffffff;
+  border: 2px solid #0071eb;
+  font-size: 17px;
+  font-weight: bolder;
+  color: #0071eb;
+  margin-right: 18px;
+  padding: 5px 20px;
+  border-radius: 24px;
+  transition-property: all;
+  transition-duration: 800ms;
+}
+
+.cretNewList:hover {
+  color: #f95d12;
+  border-color: #f95d12;
+}
+
+.wishCardRow {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.wishCardFig {
+  width: 200px;
+  /* height: 155px; */
+}
+
+.wishCardFig img {
+  width: 100%;
+  height: 100%;
+}
+
+.perWishText {
+  margin-bottom: 5px;
+  text-align: right;
+  line-height: normal;
+}
+
+.entryWishStar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rateWishStar {
+  display: flex;
+}
+
+.rateWishSpan {
+  color: #1a2b49;
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.rateWishStarDiv i {
+  color: #f95d12;
+}
+
+.numReview {
+  font-size: 14px;
+  color: #63687a;
+  text-align: right;
+  margin: 0;
+}
+
+.timePriceDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.timeWishPara {
+  font-size: 15px;
+  color: #1a2b49;
+  font-weight: 600;
+  margin: 0;
+}
+
+.fromPriceText {
+  font-size: 14px;
+  color: #1a2b49;
+  font-weight: bolder;
+  margin: 0 0 5px 0;
+  text-align: right;
+}
+
+.rmvLnkBtn {
+  position: absolute;
+  left: 10px;
+  bottom: 26px;
+}
+
+.wishlistItems {
+  margin-bottom: 20px;
+  border: 1px solid #807b7b46;
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .wishEmpFigTeDiv {
+    flex-direction: column;
+  }
+
+  .wishEmpFig {
+    margin-bottom: 20px;
+  }
+
+  .wishEmpFigTeDiv {
+    margin: 27px 0;
+  }
+}
+
+@media (max-width: 567px) {
+  .titleStyle {
+    font-size: 14px;
+  }
+
+  .wishlistPara {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 479px) {
+  .wishlistHeading {
+    font-size: 20px;
+  }
+
+  .cretNewList {
+    font-size: 12px;
+    padding: 6px 6px;
+  }
+
+  .yoWishPara {
+    font-size: 20px;
+  }
+
+  .findThinsDiv {
+    font-size: 13px;
+  }
+}

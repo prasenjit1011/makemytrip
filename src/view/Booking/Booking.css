@@ -1,0 +1,552 @@
+.checkHead {
+    padding: 20px 31px 0 31px;
+}
+
+.checkHead p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.bookingPart {
+    padding-left: 31px;
+    border-right: 1px solid #8A8686;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.bookingPartImg {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.bookingPartImg figure {
+    margin: 0;
+    position: relative;
+    max-width: 95px;
+    width: 100%;
+    height: auto;
+}
+
+.bookingPartImg figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.bookingPartImgSpan {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 120%;
+    position: absolute;
+    top: 9px;
+    left: 20px;
+}
+
+.activeImgSpan {
+    color: #fff;
+}
+
+.bookingFormThings {
+    width: 90%;
+}
+
+.freeText {
+    margin-bottom: 0;
+    text-align: right;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 120%;
+    color: #0688B1;
+}
+
+.freePart span {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 120%;
+    color: #0688B1;
+}
+
+.thingsBookLabel {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+    margin-right: 10px;
+}
+
+.thingsBookInput {
+    border: 0;
+    border-bottom: 1px solid #000000;
+    outline: 0;
+    width: 100%;
+}
+
+.thingsBookInputParent {
+    width: 78%;
+}
+
+.bookFormThingsParent {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookFormThingsParentLast {
+    margin-bottom: 0;
+}
+
+.bookFormThingsParentLast div {
+    position: relative;
+}
+
+.numberCounCode {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    padding: 3px 5px 3px 20px;
+    border: 0;
+    background-color: #00000000;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #1B1B1B;
+    position: absolute;
+    left: 0;
+    top: -2px;
+    z-index: 2;
+    background: transparent;
+}
+
+.dropArrow {
+    color: #000000;
+    position: absolute;
+    left: 5px;
+    top: -2px;
+    z-index: 1;
+}
+
+.continueBtn {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.continueBtn .btn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    background-color: #00B19F;
+    border-radius: 15px !important;
+    padding: 15px 40px;
+    border: 1px solid #00B19F;
+}
+
+.summaryPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.summaryPartSub {
+    border: 0.893387px solid #00000046;
+    padding: 0 3px 3px 3px;
+    border-radius: 17.8677px;
+}
+
+.orderHead {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.innerOrderPart {
+    width: 420px;
+    margin-bottom: 18px;
+}
+
+.innerSubDobDiv {
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.thinkToPara {
+    margin: 0;
+}
+
+.innerSubDobDiv::-webkit-scrollbar {
+    display: none;
+}
+
+.fromPaParent {
+    margin-bottom: 15px;
+}
+
+.borderDiv {
+    width: 100%;
+    height: 1px;
+    background-color: #A2A0A0;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.boderLastDiv {
+    margin-top: 28px;
+}
+
+.fromPaParent span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 120%;
+    color: #000000;
+    display: block;
+    max-width: 435px;
+}
+
+.bookingRatePart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;
+}
+
+.bookNumRate {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.bookPerson {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    color: #5F5F5F;
+    margin-bottom: 0;
+}
+
+.bookRate {
+    margin-top: -2px;
+}
+
+.bookRate i {
+    color: #FBBC04;
+}
+
+.sharedIconPart {
+    display: flex;
+    width: 287px;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.sharedIconPart figure {
+    margin-bottom: 0;
+    position: relative;
+    top: -6px;
+    width: 17px;
+}
+
+.sharedIconPart figure img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.sharedIconLastPart {
+    margin-bottom: 0;
+}
+
+.shareText {
+    width: 246px;
+}
+
+.shareText span {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 120%;
+    color: #000000;
+    display: block;
+}
+
+.giftIconPart {
+    width: 287px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.giftIconPart figure {
+    margin: 0;
+    width: 16px;
+    height: auto;
+    position: relative;
+    top: -4px;
+}
+
+.giftIconPart figure img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.giftIconPart span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    color: #0070AE;
+    width: 246px;
+}
+
+.redeemForm {
+    margin-top: 19px;
+}
+
+.redeemForm .myFormCntrl {
+    border: 1px solid #000000;
+    border-radius: 8.93387px;
+    width: 100%;
+    height: 53px;
+    outline: 0;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+.redeemForm>div {
+    position: relative;
+}
+
+.redeemForm .redeBtn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+}
+
+.redeemForm .btn {
+    background-color: #00000000;
+    border: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+    color: #009788;
+    box-shadow: none;
+}
+
+.redeemForm .input-group>.custom-file,
+.redeemForm .input-group>.custom-select,
+.redeemForm .input-group>.form-control,
+.redeemForm .input-group>.form-control-plaintext {
+    height: 53px;
+}
+
+.redeemForm .redInp {
+    border: 0.625371px solid #000000;
+    border-radius: 8.93387px;
+}
+
+.subtotalPart {
+    width: 420px;
+    padding: 17px 15px 15px 15px;
+    background-color: #009788;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.subTotalFirst {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subTotalFirst span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.allTextPart {
+    margin-bottom: 0;
+    text-align: right;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.bookRowPart {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1100px) {
+    .summaryPart>div {
+        width: 100%;
+    }
+
+    .subtotalPart {
+        width: 100%;
+    }
+
+    .innerOrderPart {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .bookingPart {
+        border: 0;
+    }
+
+    .continueBtn {
+        margin-top: 70px;
+    }
+
+    .checkHead p {
+        font-size: 20px;
+    }
+
+    .bookingPartImgSpan {
+        font-size: 11px;
+        top: 6px;
+        left: 17px;
+
+    }
+
+    .bookingPartImg figure {
+        max-width: 80px;
+    }
+
+    .orderHead {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .thingsBookLabel {
+        font-size: 18px;
+    }
+
+    .continueBtn {
+        margin-top: 55px;
+    }
+
+    .summaryPart {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .freeText {
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .checkHead p {
+        font-size: 18px;
+    }
+
+    .thingsBookLabel {
+        font-size: 10px;
+    }
+
+    .numberCounCode {
+        top: 1px;
+        font-size: 11px;
+    }
+
+    .freeText {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    .continueBtn button {
+        font-size: 20px;
+        padding: 15px 40px;
+    }
+
+    .fromPaParent span {
+        font-size: 15px;
+    }
+
+    .shareText span {
+        font-size: 15px;
+    }
+
+    .giftIconPart span {
+        font-size: 15px;
+    }
+
+    .subTotalFirst span {
+        font-size: 14px;
+    }
+
+    .allTextPart {
+        font-size: 10px;
+    }
+
+    .bookingPartImgSpan {
+        font-size: 10px;
+        top: 6px;
+        left: 16px;
+    }
+
+    .dropArrow {
+        left: 8px;
+        top: 0px;
+        font-size: 13px;
+    }
+
+    .bookingPartImg figure {
+        max-width: 75px;
+        width: 100%;
+    }
+
+    .continueBtn .btn {
+        font-size: 12px;
+        padding: 10px 21px;
+    }
+
+    .sharedIconPart {
+        width: 272px;
+    }
+
+    .giftIconPart span {
+        width: 260px;
+    }
+}
+
+/********************/
